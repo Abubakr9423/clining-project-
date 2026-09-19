@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="tg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design system specimen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=block" rel="stylesheet">
+<style>
+:root{
+  --forest:#0B3B34; --teal:#0F6B5C; --teal-hover:#0C5A4D; --mint:#E8F3F0; --mint-deep:#D3E7E1;
+  --canvas:#F3F6F5; --white:#FFFFFF; --ink:#14201D; --slate:#56655F; --line:#D5E0DC;
+  --wa:#25D366; --tg:#2AABEE;
+  --font-display:'Golos Text',system-ui,sans-serif; --font-body:'Inter',system-ui,sans-serif;
+  --r-sm:8px; --r-md:12px; --r-lg:20px;
+  --shadow-1:0 1px 2px rgba(11,59,52,.05),0 10px 30px -12px rgba(11,59,52,.18);
+  --fs-display:clamp(2.125rem,1.1rem + 4vw,3.75rem);
+  --fs-h1:clamp(2rem,1.3rem + 2.6vw,3.25rem);
+  --fs-h2:clamp(1.75rem,1.35rem + 1.3vw,2.375rem);
+  --fs-h3:clamp(1.25rem,1.15rem + .35vw,1.5rem);
+  --fs-body:clamp(1rem,.96rem + .15vw,1.0625rem);
+  --fs-small:.875rem; --fs-caption:.8125rem;
+  --gutter:clamp(16px,4vw,32px); --container:1200px;
+  --section-y:clamp(72px,6vw + 40px,112px);
+}
+*{box-sizing:border-box} body{margin:0;background:var(--canvas);color:var(--ink);font-family:var(--font-body);font-size:var(--fs-body);line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:var(--container);margin:0 auto;padding:0 var(--gutter)}
+h1,h2,h3,.display{font-family:var(--font-display);color:var(--forest);margin:0;font-weight:700;letter-spacing:-.02em;line-height:1.08;text-wrap:balance}
+.display{font-size:var(--fs-display);font-weight:800;letter-spacing:-.03em;line-height:1.02}
+h1{font-size:var(--fs-h1)} h2{font-size:var(--fs-h2);letter-spacing:-.015em;line-height:1.12} h3{font-size:var(--fs-h3);letter-spacing:-.01em;line-height:1.25;font-weight:600}
+p{margin:0} .lead{font-size:1.125rem;color:var(--slate);max-width:60ch;line-height:1.5}
+.small{font-size:var(--fs-small);color:var(--slate)} .caption{font-size:var(--fs-caption);color:var(--slate)}
+.spec{padding:40px 0;border-bottom:1px solid var(--line)} .spec-label{font-size:12px;color:var(--slate);margin-bottom:12px;font-family:ui-monospace,monospace}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:10px;height:48px;padding:0 20px;border-radius:var(--r-sm);font:600 1rem var(--font-body);border:1px solid transparent;cursor:pointer;text-decoration:none;white-space:nowrap}
+.btn-primary{background:var(--teal);color:#fff} .btn-primary:hover{background:var(--teal-hover)}
+.btn-secondary{background:#fff;color:var(--forest);border-color:var(--forest)}
+.btn-ghost{background:transparent;color:var(--forest);padding:0 4px;border:0;text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--line)}
+.btn-wa{background:var(--wa);color:#fff} .btn-tg{background:var(--tg);color:#fff}
+.btn:focus-visible{outline:2px solid var(--teal);outline-offset:3px}
+.swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px}
+.sw{height:84px;border-radius:var(--r-md);border:1px solid var(--line);padding:10px;font-size:12px;display:flex;flex-direction:column;justify-content:flex-end}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r-md);padding:24px;max-width:360px}
+.card .icon{width:44px;height:44px;border-radius:999px;background:var(--mint);display:grid;place-items:center;margin-bottom:16px;color:var(--teal)}
+.card p{color:var(--slate);margin-top:8px}
+.chip{display:inline-flex;height:40px;align-items:center;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:.9375rem} .chip.on{background:var(--forest);color:#fff;border-color:var(--forest)}
+/* hero mock */
+.hero{display:grid;grid-template-columns:7fr 5fr;gap:40px;align-items:center;padding:56px 0}
+.hero .img{aspect-ratio:4/5;border-radius:var(--r-lg);background:linear-gradient(160deg,var(--mint-deep),var(--mint));display:grid;place-items:center;color:var(--slate);font-size:13px;border:1px dashed var(--line)}
+.hero .ctas{margin-top:28px} .hero .lead{margin-top:20px}
+.split{display:grid;grid-template-columns:4fr 8fr;gap:40px;padding:var(--section-y) 0}
+.split .sticky{position:sticky;top:96px;align-self:start}
+.dark{background:var(--forest);color:#fff} .dark h2,.dark h3{color:#fff} .dark .lead{color:rgba(255,255,255,.72)}
+.reasons{display:grid;grid-template-columns:repeat(3,1fr);gap:32px 28px}
+.reason{border-top:1px solid rgba(255,255,255,.18);padding-top:18px} .reason p{color:rgba(255,255,255,.72);margin-top:8px;font-size:.9375rem}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px} .step .n{font:700 .875rem var(--font-display);color:var(--teal);margin-bottom:8px}
+@media (max-width:900px){.hero,.split{grid-template-columns:1fr}.reasons{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.split .sticky{position:static}}
+@media (max-width:560px){.reasons,.steps{grid-template-columns:1fr}.hero{padding:32px 0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<section class="hero">
+  <div>
+    <h1 class="display">Тозакунии касбии биноҳо ва нигоҳубини ҳудуд дар Душанбе</h1>
+    <p class="lead">Офисҳо, клиникаҳо, мағозаҳо, хонаҳо ва ҳудудҳои назди бино. Хизматрасонии мунтазам тибқи шартнома, таҷҳизоти муосир ва кормандони масъулиятшинос.</p>
+    <div class="row ctas"><a class="btn btn-primary" href="#">Ҳисобро гиред</a><a class="btn btn-wa" href="#">WhatsApp</a><a class="btn btn-ghost" href="#">Занг занед: [PHONE]</a></div>
+  </div>
+  <div class="img">[PHOTO: сотрудник с поломоечной машиной]</div>
+</section>
+
+<section class="spec">
+  <div class="spec-label">RU hero (same slot) — check length</div>
+  <h1 class="display">Профессиональная уборка помещений и уход за территорией в Душанбе</h1>
+  <p class="lead" style="margin-top:16px">Офисы, клиники, магазины, дома и прилегающие территории. Регулярное обслуживание по договору, современное оборудование и ответственные сотрудники.</p>
+  <div class="row" style="margin-top:24px"><a class="btn btn-primary" href="#">Получить расчёт</a><a class="btn btn-wa" href="#">WhatsApp</a><a class="btn btn-ghost" href="#">Позвонить: [PHONE]</a></div>
+</section>
+
+<section class="spec">
+  <div class="spec-label">Type scale — Golos Text (display) + Inter (body)</div>
+  <h1>H1 · Хизматрасониҳои мо / Наши услуги</h1>
+  <h2 style="margin-top:14px">H2 · Чаро мо / Почему нам доверяют</h2>
+  <h3 style="margin-top:12px">H3 · Тозакунии ҳаррӯзаи офисҳо / Ежедневная уборка офисов</h3>
+  <p style="margin-top:12px;max-width:62ch">Body · Мо тозакунии дохили бино, нигоҳубини ҳудуд ва кабудизоркуниро дар як шартнома пешниҳод мекунем. Мы выполняем уборку помещений, уход за территорией и озеленение в рамках одного договора — с графиком, чек-листами и ответственным менеджером.</p>
+  <p class="small" style="margin-top:8px">Small · Ҳисоб пас аз азназаргузаронии объект. Точную стоимость назовём после осмотра объекта.</p>
+  <p class="caption" style="margin-top:4px">Caption · [REVIEW PLACEHOLDER] · Аксҳо муваққатӣ мебошанд.</p>
+</section>
+
+<section class="spec">
+  <div class="spec-label">Colours</div>
+  <div class="swatches">
+    <div class="sw" style="background:#0B3B34;color:#fff">forest #0B3B34</div>
+    <div class="sw" style="background:#0F6B5C;color:#fff">teal #0F6B5C</div>
+    <div class="sw" style="background:#E8F3F0">mint #E8F3F0</div>
+    <div class="sw" style="background:#F3F6F5">canvas #F3F6F5</div>
+    <div class="sw" style="background:#fff">white #FFFFFF</div>
+    <div class="sw" style="background:#14201D;color:#fff">ink #14201D</div>
+    <div class="sw" style="background:#56655F;color:#fff">slate #56655F</div>
+    <div class="sw" style="background:#D5E0DC">line #D5E0DC</div>
+    <div class="sw" style="background:#25D366;color:#fff">whatsapp</div>
+    <div class="sw" style="background:#2AABEE;color:#fff">telegram</div>
+  </div>
+</section>
+
+<section class="spec">
+  <div class="spec-label">Buttons, chips, card</div>
+  <div class="row"><a class="btn btn-primary" href="#">Получить расчёт</a><a class="btn btn-secondary" href="#">Подробнее</a><a class="btn btn-wa" href="#">Написать в WhatsApp</a><a class="btn btn-tg" href="#">Отправить в Telegram</a></div>
+  <div class="row" style="margin-top:16px"><span class="chip on">Офис</span><span class="chip">Клиника</span><span class="chip">Магазин</span><span class="chip">Дом</span><span class="chip">Территория</span><span class="chip">Другое</span></div>
+  <div class="card" style="margin-top:20px"><div class="icon">✦</div><h3>Тозакунии ҳаррӯзаи офисҳо</h3><p>Фаршҳо, сатҳҳо, чанг, ҳоҷатхонаҳо ва баровардани партов — ҳар рӯз тибқи чек-лист.</p></div>
+</section>
+</div>
+
+<section class="dark"><div class="wrap split">
+  <div class="sticky"><h2>Почему нам доверяют</h2><p class="lead" style="margin-top:12px">Не обещания, а механизмы: что именно мы делаем, чтобы уборка была предсказуемой.</p></div>
+  <div class="reasons">
+    <div class="reason"><h3>Современное оборудование</h3><p>Поломоечные машины, промышленные пылесосы, оборудование для окон и территории.</p></div>
+    <div class="reason"><h3>Профессиональная химия</h3><p>Средства по типу поверхности, дозирование, безопасность для людей и покрытий.</p></div>
+    <div class="reason"><h3>Ответственный подход</h3><p>Закреплённая бригада, форма, инструктаж, ответственность по договору.</p></div>
+    <div class="reason"><h3>Контроль качества</h3><p>Чек-листы по объекту, ответственный менеджер, обратная связь после визита.</p></div>
+    <div class="reason"><h3>Регулярное обслуживание</h3><p>График под ваш режим работы, замена сотрудника без срыва уборки.</p></div>
+    <div class="reason"><h3>Один подрядчик</h3><p>Помещения, территория и озеленение в одном договоре и одном счёте.</p></div>
+  </div>
+</div></section>
+
+<div class="wrap"><section class="split">
+  <div class="sticky"><h2>Чӣ тавр кор мекунем</h2></div>
+  <div class="steps">
+    <div class="step"><div class="n">01</div><h3>Дархост</h3><p class="small">Телефон, WhatsApp, Telegram ё ҳисоб дар сомона.</p></div>
+    <div class="step"><div class="n">02</div><h3>Баромад ва ҳисоб</h3><p class="small">Азназаргузаронӣ, ченкунӣ, пешниҳод оид ба ҳаҷм ва ҷадвал.</p></div>
+    <div class="step"><div class="n">03</div><h3>Мувофиқаи ҷадвал</h3><p class="small">Шартнома, таркиби корҳо, шахсони масъул.</p></div>
+    <div class="step"><div class="n">04</div><h3>Тозакунӣ ва назорат</h3><p class="small">Иҷро тибқи чек-лист, ҳисобот, ислоҳот.</p></div>
+  </div>
+</section></div>
+</body></html>

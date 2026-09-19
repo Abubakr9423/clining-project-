@@ -1,0 +1,162 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+/* ------------------------------------------------------------------ */
+/* Brand tokens (Phase 3 design system)                                */
+/* ------------------------------------------------------------------ */
+:root {
+  /* palette */
+  --forest: #0b3b34;
+  --teal: #0f6b5c;
+  --teal-hover: #0c5a4d;
+  --mint: #e8f3f0;
+  --mint-deep: #d3e7e1;
+  --canvas: #f3f6f5;
+  --white: #ffffff;
+  --ink: #14201d;
+  --slate: #4a5954;
+  --line: #d5e0dc;
+  --whatsapp: #25d366;
+  --telegram: #2aabee;
+  --danger: #b3261e;
+
+  /* shadcn semantic tokens mapped to the brand */
+  --background: var(--canvas);
+  --foreground: var(--ink);
+  --card: var(--white);
+  --card-foreground: var(--ink);
+  --popover: var(--white);
+  --popover-foreground: var(--ink);
+  --primary: var(--teal);
+  --primary-foreground: var(--white);
+  --secondary: var(--white);
+  --secondary-foreground: var(--forest);
+  --muted: var(--mint);
+  --muted-foreground: var(--slate);
+  --accent: var(--mint);
+  --accent-foreground: var(--forest);
+  --destructive: var(--danger);
+  --border: var(--line);
+  --input: var(--line);
+  --ring: var(--teal);
+  --radius: 0.75rem;
+
+  /* fonts come from next/font in the locale layout */
+  --font-sans: var(--font-inter), system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-heading: var(--font-golos), var(--font-inter), system-ui, sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* brand colours as utilities: bg-forest, text-teal, border-line … */
+  --color-forest: var(--forest);
+  --color-teal: var(--teal);
+  --color-teal-hover: var(--teal-hover);
+  --color-mint: var(--mint);
+  --color-mint-deep: var(--mint-deep);
+  --color-canvas: var(--canvas);
+  --color-ink: var(--ink);
+  --color-slate: var(--slate);
+  --color-line: var(--line);
+  --color-whatsapp: var(--whatsapp);
+  --color-telegram: var(--telegram);
+  --color-danger: var(--danger);
+
+  --font-sans: var(--font-sans);
+  --font-body: var(--font-sans);
+  --font-heading: var(--font-heading);
+  --font-display: var(--font-heading);
+
+  /* fluid type scale (measured in Phase 3 so the longest RU/TJ words fit at 375px) */
+  --text-display: clamp(2.125rem, 1.1rem + 4vw, 3.75rem);
+  --text-display--line-height: 1.02;
+  --text-display--letter-spacing: -0.03em;
+  --text-h1: clamp(2rem, 1.3rem + 2.6vw, 3.25rem);
+  --text-h1--line-height: 1.08;
+  --text-h1--letter-spacing: -0.02em;
+  --text-h2: clamp(1.75rem, 1.35rem + 1.3vw, 2.375rem);
+  --text-h2--line-height: 1.12;
+  --text-h2--letter-spacing: -0.015em;
+  --text-h3: clamp(1.25rem, 1.15rem + 0.35vw, 1.5rem);
+  --text-h3--line-height: 1.25;
+  --text-h3--letter-spacing: -0.01em;
+  --text-body: clamp(1rem, 0.96rem + 0.15vw, 1.0625rem);
+  --text-body--line-height: 1.55;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 24px;
+
+  --shadow-lift: 0 1px 2px rgb(11 59 52 / 0.05), 0 10px 30px -12px rgb(11 59 52 / 0.18);
+
+  --spacing-section: clamp(72px, 6vw + 40px, 112px);
+  --spacing-gutter: clamp(16px, 4vw, 32px);
+  --container-site: 1200px;
+
+  --ease-brand: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    scroll-behavior: smooth;
+    hanging-punctuation: first last;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-heading text-forest;
+    text-wrap: balance;
+    hyphens: auto;
+  }
+  button:not(:disabled), [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 2px solid var(--teal);
+    outline-offset: 3px;
+  }
+  @keyframes hero-rise {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: none; }
+  }
+  .hero-rise {
+    animation: hero-rise 0.5s var(--ease-brand) both;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hero-rise { animation: none; }
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
