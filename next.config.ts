@@ -15,3 +15,6 @@ const nextConfig: NextConfig = {
 
 const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 export default withNextIntl(nextConfig);
+
+// Gives `next dev` access to Cloudflare bindings (images, env) the same way the deployed Worker has them.
+import("@opennextjs/cloudflare").then((m) => m.initOpenNextCloudflareForDev());

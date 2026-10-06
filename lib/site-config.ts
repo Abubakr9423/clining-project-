@@ -1,8 +1,13 @@
+/** The company domain (registered at a .tj registrar, served by Cloudflare). */
+export const PRODUCTION_URL = "https://safocleaning.tj";
+
 function resolveSiteUrl(): string {
   const explicit = process.env.NEXT_PUBLIC_SITE_URL;
   if (explicit) return explicit.replace(/\/$/, "");
   const vercel = process.env.VERCEL_PROJECT_PRODUCTION_URL ?? process.env.VERCEL_URL;
   if (vercel) return `https://${vercel}`;
+  // Production builds elsewhere (Cloudflare Workers) use the real domain.
+  if (process.env.NODE_ENV === "production") return PRODUCTION_URL;
   return "http://localhost:3000";
 }
 

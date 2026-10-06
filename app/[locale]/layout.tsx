@@ -37,7 +37,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Omit<Props, "children">): Promise<Metadata> {
   const locale = await resolveLocale(params);
   const t = await getTranslations({ locale, namespace: "meta" });
-  return buildMetadata(locale, { title: t("title"), description: t("description"), ogTitle: t("ogTitle"), ogDescription: t("ogDescription") });
+  return buildMetadata(locale, { title: t("title"), description: t("description"), keywords: t("keywords"), ogTitle: t("ogTitle"), ogDescription: t("ogDescription") });
 }
 
 export default async function LocaleLayout({ children, params }: Props) {

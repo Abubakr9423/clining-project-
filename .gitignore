@@ -11,3 +11,9 @@ npm-debug.log*
 *.tsbuildinfo
 next-env.d.ts
 .playwright-mcp
+
+# Cloudflare (OpenNext / wrangler)
+.open-next
+.wrangler
+.dev.vars*
+cloudflare-env.d.ts
