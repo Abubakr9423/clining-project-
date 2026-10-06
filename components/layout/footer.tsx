@@ -16,7 +16,7 @@ export function Footer() {
   return (
     <footer className="border-t border-line bg-white">
       <Container className="grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-12">
-        <div className="lg:col-span-5">
+        <div className="lg:col-span-4">
           <Logo />
           <p className="mt-3 max-w-[44ch] text-sm leading-relaxed text-slate">{siteConfig.goalStatement}</p>
           <p className="mt-4 text-sm text-slate">
@@ -64,9 +64,9 @@ export function Footer() {
             </li>
           </ul>
         </div>
-        <div className="lg:col-span-2">
+        <div className="lg:col-span-3">
           <p className="text-sm font-semibold text-forest">{t("langTitle")}</p>
-          <LanguageSwitch variant="list" className="mt-3" />
+          <LanguageSwitch variant="links" className="mt-3" />
         </div>
       </Container>
       <div className="border-t border-line">

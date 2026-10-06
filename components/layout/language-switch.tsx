@@ -9,12 +9,37 @@ import { cn } from "@/lib/utils";
 
 /**
  * `menu` (header): compact trigger + dropdown, since ten codes no longer fit inline.
- * `list` (footer, mobile sheet): every language visible as a wrapping row of links.
+ * `list` (mobile sheet): every language visible as a wrapping row of pills.
+ * `links` (footer): a quiet two-column list of text links, matching the footer's nav column.
  */
-export function LanguageSwitch({ className, variant = "menu" }: { className?: string; variant?: "menu" | "list" }) {
+export function LanguageSwitch({ className, variant = "menu" }: { className?: string; variant?: "menu" | "list" | "links" }) {
   const locale = useLocale() as AppLocale;
   const pathname = usePathname();
   const t = useTranslations("a11y");
+
+  if (variant === "links") {
+    return (
+      <ul role="group" aria-label={t("switchLanguage")} className={cn("grid grid-cols-2 gap-x-6 gap-y-2 text-sm", className)}>
+        {routing.locales.map((code) => {
+          const active = code === locale;
+          return (
+            <li key={code}>
+              <Link
+                href={pathname}
+                locale={code}
+                lang={code}
+                aria-current={active ? "true" : undefined}
+                className={cn("inline-flex items-center gap-1.5", active ? "font-semibold text-forest" : "text-ink/80 hover:text-forest")}
+              >
+                {localeNames[code]}
+                {active ? <Check className="size-3.5 text-teal" aria-hidden /> : null}
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+    );
+  }
 
   if (variant === "list") {
     return (
