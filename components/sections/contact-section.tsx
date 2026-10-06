@@ -13,9 +13,9 @@ export function ContactSection() {
 
   const rows: Array<{ key: string; icon: React.ReactNode; label: string; value: string; href?: string; external?: boolean }> = [
     { key: "phone", icon: <Phone className="size-5" aria-hidden />, label: t("phone"), value: siteConfig.phone, href: telHref },
-    { key: "whatsapp", icon: <WhatsAppIcon size={20} />, label: t("whatsapp"), value: siteConfig.phone, href: whatsappUrl(th("whatsappGreeting")), external: true },
-    { key: "telegram", icon: <TelegramIcon size={20} />, label: t("telegram"), value: siteConfig.telegram.startsWith("+") ? siteConfig.phone : `@${siteConfig.telegram}`, href: telegramUrl(), external: true },
-    { key: "instagram", icon: <InstagramIcon size={20} />, label: t("instagram"), value: `@${siteConfig.instagram}`, href: instagramUrl, external: true },
+    { key: "whatsapp", icon: <WhatsAppIcon size={22} brand />, label: t("whatsapp"), value: siteConfig.phone, href: whatsappUrl(th("whatsappGreeting")), external: true },
+    { key: "telegram", icon: <TelegramIcon size={22} brand />, label: t("telegram"), value: siteConfig.telegram.startsWith("+") ? siteConfig.phone : `@${siteConfig.telegram}`, href: telegramUrl(), external: true },
+    { key: "instagram", icon: <InstagramIcon size={22} brand />, label: t("instagram"), value: `@${siteConfig.instagram}`, href: instagramUrl, external: true },
     { key: "address", icon: <MapPin className="size-5" aria-hidden />, label: t("address"), value: t("addressValue") },
     { key: "hours", icon: <Clock className="size-5" aria-hidden />, label: t("hours"), value: t("hoursValue") },
   ];
@@ -30,7 +30,7 @@ export function ContactSection() {
                 <span className="grid size-10 shrink-0 place-items-center rounded-full bg-mint text-teal">{row.icon}</span>
                 <span className="min-w-0">
                   <span className="block text-[13px] text-slate">{row.label}</span>
-                  <span className="block truncate font-medium text-forest">{row.value}</span>
+                  <span className="block font-medium text-forest [overflow-wrap:anywhere]">{row.value}</span>
                 </span>
               </>
             );

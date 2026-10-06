@@ -49,17 +49,17 @@ export function Footer() {
           <ul className="mt-4 flex gap-2">
             <li>
               <a href={whatsappUrl()} target="_blank" rel="noopener" aria-label={tc("whatsapp")} className="grid size-10 place-items-center rounded-full border border-line text-forest hover:bg-mint">
-                <WhatsAppIcon size={20} />
+                <WhatsAppIcon size={22} brand />
               </a>
             </li>
             <li>
               <a href={telegramUrl()} target="_blank" rel="noopener" aria-label={tc("telegram")} className="grid size-10 place-items-center rounded-full border border-line text-forest hover:bg-mint">
-                <TelegramIcon size={20} />
+                <TelegramIcon size={22} brand />
               </a>
             </li>
             <li>
               <a href={instagramUrl} target="_blank" rel="noopener" aria-label={tc("instagram")} className="grid size-10 place-items-center rounded-full border border-line text-forest hover:bg-mint">
-                <InstagramIcon size={20} />
+                <InstagramIcon size={22} brand />
               </a>
             </li>
           </ul>
