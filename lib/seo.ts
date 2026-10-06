@@ -19,12 +19,13 @@ export function languageAlternates(): Record<string, string> {
   return map;
 }
 
-export function buildMetadata(locale: AppLocale, t: { title: string; description: string; ogTitle: string; ogDescription: string }): Metadata {
+export function buildMetadata(locale: AppLocale, t: { title: string; description: string; keywords: string; ogTitle: string; ogDescription: string }): Metadata {
   const path = localePath(locale);
   return {
     metadataBase: new URL(siteConfig.url),
     title: t.title,
     description: t.description,
+    keywords: t.keywords.split(",").map((k) => k.trim()),
     alternates: { canonical: absoluteUrl(path), languages: languageAlternates() },
     openGraph: {
       type: "website",
