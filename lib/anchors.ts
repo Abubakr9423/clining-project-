@@ -5,6 +5,7 @@ export const anchors = {
   clients: "clients",
   whyUs: "why-us",
   process: "process",
+  wipe: "try-it",
   calculator: "calculator",
   beforeAfter: "before-after",
   reviews: "reviews",

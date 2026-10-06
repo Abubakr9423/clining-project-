@@ -362,6 +362,18 @@
       }
     }
   },
+  "wipe": {
+    "title": "Özüňiz synap görüň",
+    "subtitle": "Suratyň üstünden barmagyňyz ýa-da syçanjyk bilen geçiriň we aşhanany tertipli arassalaň. Biziň işimiz takmynan şeýle görünýär.",
+    "hint": "Süpürmek üçin geçiriň",
+    "progress": "{percent}% arassa",
+    "done": "Taýýar — Safo şeýle arassalaýar",
+    "reset": "Ýene hapalamak",
+    "cleanAll": "Birbada arassalamak",
+    "cta": "Arassalamagyň bahasyny hasaplamak",
+    "alt": "Arassalanandan soňky ýagty, arassa aşhana",
+    "note": "Emeli aň bilen döredilen surat: şol bir aşhana arassalamazdan öň we soň."
+  },
   "beforeAfter": {
     "title": "Öň we soň",
     "subtitle": "Deňeşdirmek üçin süýşürgiji çekiň. Häzirlikçe bu ýerde suratlar — olar biziň obýektlerimiziň suratlary bilen çalşyrlar.",

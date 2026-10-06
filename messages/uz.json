@@ -362,6 +362,18 @@
       }
     }
   },
+  "wipe": {
+    "title": "O'zingiz sinab ko'ring",
+    "subtitle": "Barmog‘ingiz yoki sichqoncha bilan rasm ustidan o‘tkazing — oshxonani top-toza qiling. Bizning ishimiz taxminan shunday ko‘rinadi.",
+    "hint": "Artish uchun suring",
+    "progress": "{percent}% toza",
+    "done": "Tayyor — Safo shunday toza qiladi",
+    "reset": "Yana kirlatish",
+    "cleanAll": "Birdan tozalash",
+    "cta": "Tozalash narxini hisoblash",
+    "alt": "Tozalangandan keyingi yorug‘ va toza oshxona",
+    "note": "Sun’iy intellekt yordamida yaratilgan rasm: bitta oshxona tozalashdan oldin va keyin."
+  },
   "beforeAfter": {
     "title": "Oldin va keyin",
     "subtitle": "Solishtirish uchun slayderni torting. Hozircha bu yerda illyustratsiyalar — ular bizning obyektlarimiz suratlari bilan almashtiriladi.",

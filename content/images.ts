@@ -46,4 +46,10 @@ export const images = {
       credit: "Emmanuel M; Craftsman Concrete Floors / Unsplash",
     },
   } satisfies Record<string, BeforeAfterPair>,
+  /** AI-generated pair for the "wipe the glass" section — a different room from the slider on purpose. */
+  wipe: {
+    before: "/images/wipe-kitchen-dirty.jpg",
+    after: "/images/wipe-kitchen-clean.jpg",
+    caption: "[PHOTO: кухня до/после — ИИ-иллюстрация]",
+  } satisfies BeforeAfterPair,
 } as const;

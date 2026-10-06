@@ -362,6 +362,18 @@
       }
     }
   },
+  "wipe": {
+    "title": "Try it yourself",
+    "subtitle": "Drag your finger or mouse across the photo and scrub the kitchen clean. That's roughly what our work looks like.",
+    "hint": "Drag to wipe",
+    "progress": "{percent}% clean",
+    "done": "Done — that's how clean Safo gets it",
+    "reset": "Make it dirty again",
+    "cleanAll": "Clean it all",
+    "cta": "Get a cleaning quote",
+    "alt": "Bright, spotless kitchen after cleaning",
+    "note": "AI-generated illustration: the same kitchen before and after cleaning."
+  },
   "beforeAfter": {
     "title": "Before and after",
     "subtitle": "Drag the slider to compare. These are illustrations for now — they will be replaced with photos of our projects.",

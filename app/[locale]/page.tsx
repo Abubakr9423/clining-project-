@@ -5,6 +5,7 @@ import { ServicesSection } from "@/components/sections/services-section";
 import { AudienceSection } from "@/components/sections/audience-section";
 import { WhyUsSection } from "@/components/sections/why-us-section";
 import { ProcessSection } from "@/components/sections/process-section";
+import { WipeSection } from "@/components/sections/wipe-section";
 import { CalculatorSection } from "@/components/sections/calculator-section";
 import { BeforeAfterSection } from "@/components/sections/before-after-section";
 import { ReviewsSection } from "@/components/sections/reviews-section";
@@ -27,6 +28,7 @@ export default async function HomePage({ params }: Props) {
       <AudienceSection />
       <WhyUsSection />
       <ProcessSection />
+      <WipeSection />
       <CalculatorSection />
       <BeforeAfterSection />
       <ReviewsSection />

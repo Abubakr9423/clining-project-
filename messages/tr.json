@@ -362,6 +362,18 @@
       }
     }
   },
+  "wipe": {
+    "title": "Kendiniz deneyin",
+    "subtitle": "Parmağınızı veya farenizi fotoğrafın üzerinde gezdirin ve mutfağı tertemiz yapın. İşimiz aşağı yukarı böyle görünür.",
+    "hint": "Silmek için sürükleyin",
+    "progress": "%{percent} temiz",
+    "done": "Tamam — Safo böyle temizler",
+    "reset": "Tekrar kirlet",
+    "cleanAll": "Hepsini hemen temizle",
+    "cta": "Temizlik fiyatı hesapla",
+    "alt": "Temizlik sonrası aydınlık, pırıl pırıl mutfak",
+    "note": "Yapay zekâ ile oluşturulmuş görsel: aynı mutfağın temizlik öncesi ve sonrası."
+  },
   "beforeAfter": {
     "title": "Önce ve sonra",
     "subtitle": "Karşılaştırmak için kaydırıcıyı çekin. Şimdilik burada görseller var — yerlerine kendi projelerimizin fotoğrafları gelecek.",

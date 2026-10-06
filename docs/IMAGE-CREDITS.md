@@ -22,3 +22,4 @@ Before/after pairs are illustrative (two different locations each) and are label
 | File | Source | Note |
 |---|---|---|
 | `ba-room-before.jpg`, `ba-room-after.jpg` | Generated with Google Gemini (2026-10-06) | Same room, edited from clean → dirty. Labelled as AI illustration on the site; replace with real paired photos. |
+| `wipe-kitchen-dirty.jpg`, `wipe-kitchen-clean.jpg` | Generated with Google Gemini (2026-10-06) | Same kitchen, edited from clean → dirty. Used by the "wipe the glass" section; labelled as AI illustration. |
