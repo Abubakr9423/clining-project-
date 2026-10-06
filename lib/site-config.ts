@@ -21,7 +21,6 @@ export const siteConfig = {
   owner: "Musavvir Kamolov",
   /** Credited in the footer ("Website by …"). */
   developer: { name: "ZazaTech LLC", url: "https://zazatech.tj" },
-  goalStatement: "[GOAL STATEMENT]",
   city: "Dushanbe",
   phone: "+992 022051313",
   /** Digits only, international format, no plus sign — used for wa.me links. */

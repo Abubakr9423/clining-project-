@@ -18,7 +18,7 @@ export function Footer() {
       <Container className="grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-12">
         <div className="lg:col-span-4">
           <Logo />
-          <p className="mt-3 max-w-[44ch] text-sm leading-relaxed text-slate">{siteConfig.goalStatement}</p>
+          <p className="mt-3 max-w-[44ch] text-sm leading-relaxed text-slate">{t("goal")}</p>
           <p className="mt-4 text-sm text-slate">
             {t("owner")}: <span className="font-medium text-ink">{siteConfig.owner}</span>
           </p>
