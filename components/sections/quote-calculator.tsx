@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useReducer, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { Check, Copy } from "lucide-react";
+import { Check, Copy, Sparkles } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -13,6 +13,7 @@ import { TelegramIcon, WhatsAppIcon } from "@/components/icons/brand";
 import { localeLabels, type AppLocale } from "@/i18n/routing";
 import { telegramUrl, whatsappUrl } from "@/lib/links";
 import { buildQuoteMessage } from "@/lib/quote-message";
+import { MIN_ORDER, estimate as estimatePrice, type Range } from "@/lib/pricing";
 import { onQuotePrefill, type Extra, type Frequency, type ObjectType, type QuotePrefill } from "@/lib/quote-prefill";
 import { cn } from "@/lib/utils";
 
@@ -80,6 +81,18 @@ export function QuoteCalculator() {
   const isTerritory = state.objectType === "territory";
   const extras = isTerritory ? allExtras.filter((e) => e !== "territory") : allExtras;
 
+  const selectedExtras = useMemo(() => state.extras.filter((e) => extras.includes(e)), [state.extras, extras]);
+  const quote = useMemo(
+    () => (areaValid ? estimatePrice({ objectType: state.objectType, area: areaNumber, frequency: state.frequency, extras: selectedExtras }) : null),
+    [areaValid, areaNumber, state.objectType, state.frequency, selectedExtras],
+  );
+  // Latin digits everywhere (Arabic/Persian would otherwise switch numeral systems mid-message).
+  const formatRange = useMemo(() => {
+    const nf = new Intl.NumberFormat(`${locale}-u-nu-latn`, { maximumFractionDigits: 0 });
+    return ([low, high]: Range) => `${t("estimate.approx")} ${nf.format(low)}–${nf.format(high)} ${t("estimate.currency")}`;
+  }, [locale, t]);
+  const headline = quote ? (quote.monthly ? `${formatRange(quote.monthly)} ${t("estimate.perMonth")}` : `${formatRange(quote.perVisit)} ${t("estimate.oneOff")}`) : null;
+
   const message = useMemo(
     () =>
       buildQuoteMessage(
@@ -87,10 +100,11 @@ export function QuoteCalculator() {
           objectType: t(`objectTypes.${state.objectType}`),
           area: areaValid ? areaNumber : null,
           frequency: t(`frequencies.${state.frequency}`),
-          extras: state.extras.filter((e) => extras.includes(e)).map((e) => t(`extras.${e}`)),
+          extras: selectedExtras.map((e) => t(`extras.${e}`)),
           name: state.name,
           comment: state.comment,
           languageLabel: localeLabels[locale],
+          estimate: headline && quote?.extras ? `${headline}; ${t("estimate.extras")}: + ${formatRange(quote.extras)}` : headline,
         },
         {
           greeting: t("message.greeting"),
@@ -103,9 +117,10 @@ export function QuoteCalculator() {
           comment: t("message.comment"),
           language: t("message.language"),
           none: t("message.none"),
+          estimate: t("message.estimate"),
         },
       ),
-    [t, state, areaValid, areaNumber, extras, locale],
+    [t, state, areaValid, areaNumber, selectedExtras, locale, headline, quote, formatRange],
   );
 
   const guard = (e: React.MouseEvent) => {
@@ -258,6 +273,53 @@ export function QuoteCalculator() {
       </form>
 
       <div className="rounded-md border border-line bg-white p-5 lg:sticky lg:top-28">
+        <section aria-live="polite" className="mb-5 rounded-md bg-mint p-4">
+          <div className="flex items-center justify-between gap-3">
+            <h3 className="text-sm font-semibold text-forest">{t("estimate.title")}</h3>
+            <span className="inline-flex items-center gap-1 rounded-full bg-white px-2 py-0.5 text-[11px] font-medium text-teal">
+              <Sparkles className="size-3" aria-hidden /> {t("estimate.demoBadge")}
+            </span>
+          </div>
+          {quote && headline ? (
+            <>
+              <p className="mt-2 font-heading text-2xl font-extrabold tracking-tight text-forest tabular-nums">{headline}</p>
+              <dl className="mt-3 space-y-1.5 text-sm">
+                {quote.monthly && quote.visitsPerMonth ? (
+                  <>
+                    <div className="flex justify-between gap-4">
+                      <dt className="text-slate">{t("estimate.perVisit")}</dt>
+                      <dd className="text-end font-medium tabular-nums">{formatRange(quote.perVisit)}</dd>
+                    </div>
+                    <div className="flex justify-between gap-4">
+                      <dt className="text-slate">{t("estimate.visitsPerMonth")}</dt>
+                      <dd className="text-end font-medium tabular-nums">~{quote.visitsPerMonth}</dd>
+                    </div>
+                  </>
+                ) : null}
+                {quote.extras ? (
+                  <div className="flex justify-between gap-4">
+                    <dt className="text-slate">{t("estimate.extras")}</dt>
+                    <dd className="text-end font-medium tabular-nums">+ {formatRange(quote.extras)}</dd>
+                  </div>
+                ) : null}
+                {quote.volumeDiscount > 0 ? (
+                  <div className="flex justify-between gap-4">
+                    <dt className="text-slate">{t("estimate.volumeDiscount")}</dt>
+                    <dd className="text-end font-medium tabular-nums">−{Math.round(quote.volumeDiscount * 100)}%</dd>
+                  </div>
+                ) : null}
+                {quote.minOrderApplied ? (
+                  <p className="text-[13px] text-slate">
+                    {t("estimate.minOrder")}: {MIN_ORDER} {t("estimate.currency")}
+                  </p>
+                ) : null}
+                {quote.extrasUnpriced ? <p className="text-[13px] text-slate">{t("estimate.extrasUnpriced")}</p> : null}
+              </dl>
+            </>
+          ) : (
+            <p className="mt-2 text-sm text-slate">{t("estimate.empty")}</p>
+          )}
+        </section>
         <h3 className="text-sm font-semibold text-forest">{t("preview")}</h3>
         <pre className={cn("mt-3 whitespace-pre-wrap font-body text-sm leading-relaxed text-ink", !areaValid && "text-slate")}>{message}</pre>
         <div className="mt-5 flex flex-col gap-2">

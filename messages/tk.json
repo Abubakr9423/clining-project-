@@ -1,0 +1,487 @@
+{
+  "meta": {
+    "title": "Duşenbede jaýlary hünärmenlik bilen arassalamak we töwerege seretmek — Safo Cleaning",
+    "description": "Duşenbede ofisleri, klinikalary, dükanlary we öýleri arassalamak, golaýdaky ýerleri arassalamak we ýaşyllandyrmak. Şertnama esasynda yzygiderli hyzmat, döwrebap enjamlar, hil gözegçiligi.",
+    "ogTitle": "Duşenbede jaýlary arassalamak we töwerege seretmek",
+    "ogDescription": "Ofisler, klinikalar, dükanlar, öýler we töwerekler. Şertnama esasynda yzygiderli hyzmat."
+  },
+  "common": {
+    "brand": "Safo Cleaning",
+    "call": "Jaň etmek",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "getQuote": "Hasaplama almak",
+    "placeholderNote": "Maglumatlar täzelener"
+  },
+  "nav": {
+    "services": "Hyzmatlar",
+    "whyUs": "Näme üçin biz",
+    "process": "Nähili işleýäris",
+    "faq": "Soraglar",
+    "contacts": "Aragatnaşyk"
+  },
+  "a11y": {
+    "skipToContent": "Mazmuna geçmek",
+    "openMenu": "Menýuny açmak",
+    "closeMenu": "Menýuny ýapmak",
+    "switchLanguage": "Dili üýtgetmek",
+    "mainNav": "Esasy nawigasiýa"
+  },
+  "hero": {
+    "title": "Duşenbede jaýlary hünärmenlik bilen arassalamak we töwerege seretmek",
+    "subtitle": "Ofisler, klinikalar, dükanlar, öýler we golaýdaky töwerekler. Şertnama esasynda yzygiderli hyzmat, döwrebap enjamlar we jogapkär işgärler.",
+    "ctaCall": "Jaň etmek {phone}",
+    "whatsappGreeting": "Salam! Arassalamak we töwerege seretmek hyzmatlary barada soramak isleýärin.",
+    "imageAlt": "Ofis koridorynda ýuwujy maşyn bilen arassalaýyş kompaniýasynyň işgäri",
+    "microTrust": {
+      "contract": "Şertnama esasynda işleýäris",
+      "scope": "Jaýlar, töwerek we ýaşyllandyryş",
+      "visit": "Obýekte baryp, takyk hasaplama"
+    },
+    "starter": {
+      "objectType": "Obýektiň görnüşi",
+      "area": "Meýdany, m²",
+      "submit": "Hasaplama geçmek"
+    }
+  },
+  "trust": {
+    "label": "Biz barada gysgaça",
+    "launch": "kompaniýanyň esaslandyrylan ýyly",
+    "launchValue": "2026",
+    "city": "biziň işleýän şäherimiz",
+    "cityValue": "Duşenbe",
+    "languages": "sahypadaky dil sany",
+    "languagesValue": "11",
+    "clients": "ilkinji obýektleri kabul edýäris",
+    "clientsValue": "Kabul açyk"
+  },
+  "actionBar": {
+    "label": "Çalt hereketler",
+    "quote": "Hasaplama",
+    "whatsapp": "WhatsApp",
+    "call": "Jaň etmek"
+  },
+  "calculator": {
+    "objectTypes": {
+      "office": "Ofis",
+      "clinic": "Klinika",
+      "shop": "Dükan",
+      "home": "Öý",
+      "territory": "Töwerek",
+      "other": "Başga"
+    },
+    "title": "Bahasyny hasaplamak",
+    "subtitle": "Dört meýdany dolduryň — kalkulýator derrew takmynan bahany görkezer, arzany bolsa WhatsApp ýa-da Telegram arkaly bir basyşda iberersiňiz. Takyk bahany obýekti gözden geçirenimizden soň aýdarys.",
+    "fields": {
+      "objectType": "Obýektiň görnüşi",
+      "area": "Meýdany, m²",
+      "areaTerritory": "Töweregiň meýdany, m²",
+      "frequency": "Ýygylygy",
+      "extras": "Goşmaça",
+      "name": "Adyňyz",
+      "nameOptional": "hökmany däl",
+      "comment": "Bellik",
+      "commentPlaceholder": "Salgy, amatly wagt, obýektiň aýratynlyklary"
+    },
+    "frequencies": {
+      "once": "Bir gezeklik",
+      "daily": "Her gün",
+      "severalPerWeek": "Hepdede birnäçe gezek",
+      "weekly": "Hepdede bir gezek",
+      "monthly": "Aýda bir gezek"
+    },
+    "extras": {
+      "windows": "Penjireler",
+      "renovation": "Abatlaýyşdan soňky arassalaýyş",
+      "sanitary": "Sanitariýa işlenişi",
+      "territory": "Töwerege hyzmat",
+      "landscaping": "Ýaşyllandyryş",
+      "other": "Başga"
+    },
+    "errors": {
+      "area": "Meýdany 10 m²-den başlap görkeziň"
+    },
+    "preview": "Arzanyň teksti",
+    "sendWhatsapp": "WhatsApp arkaly ibermek",
+    "sendTelegram": "Telegram arkaly ibermek",
+    "copy": "Teksti göçürmek",
+    "copied": "Tekst göçürildi",
+    "noPrice": "Hasaplama takmynan we demo tarifler boýunça edildi. Takyk baha obýektiň ýagdaýyna we tertibine baglydyr — gözden geçirenimizden soň aýdarys.",
+    "message": {
+      "greeting": "Salam! Arassalamagyň bahasyny hasaplap bermegiňizi haýyş edýärin.",
+      "objectType": "Obýektiň görnüşi",
+      "area": "Meýdany",
+      "areaUnit": "m²",
+      "frequency": "Ýygylygy",
+      "extras": "Goşmaça hyzmatlar",
+      "name": "Ady",
+      "comment": "Bellik",
+      "language": "Dil",
+      "none": "—",
+      "estimate": "Kalkulýator boýunça takmynan"
+    },
+    "estimate": {
+      "title": "Takmynan baha",
+      "demoBadge": "Demo tarifler",
+      "perMonth": "aýda",
+      "oneOff": "bir arassalamak üçin",
+      "perVisit": "Bir baryş üçin",
+      "visitsPerMonth": "Aýda baryşlar",
+      "extras": "Goşmaça hyzmatlar (bir gezeklik)",
+      "extrasUnpriced": "«Başga»ny aýratyn bahalandyrarys",
+      "volumeDiscount": "Möçber üçin arzanladyş",
+      "minOrder": "Iň az sargyt",
+      "currency": "somoni",
+      "empty": "Meýdany görkeziň — hasaplama şu ýerde peýda bolar.",
+      "approx": "≈"
+    }
+  },
+  "services": {
+    "title": "Hyzmatlar",
+    "subtitle": "Iki jogapkärçilik zolagy — binanyň içi we onuň töwereginde. Her hyzmaty aýratyn sargyt etmek ýa-da bir şertnama birleşdirmek bolýar.",
+    "tabs": {
+      "indoor": "Içki arassalaýyş",
+      "outdoor": "Töwerek we ýaşyllandyryş"
+    },
+    "includesTitle": "Näme girýär",
+    "calculate": "Obýektim üçin hasaplamak",
+    "notFound": "Gerekli hyzmaty tapmadyňyzmy?",
+    "notFoundText": "Bize ýazyň — obýektiňize laýyk çözgüt saýlap bereris.",
+    "notFoundCta": "WhatsApp-a ýazmak",
+    "notFoundMessage": "Salam! Meniň arassalamak boýunça adaty bolmadyk meselem bar, ony maslahatlaşmak isleýärin.",
+    "indoor": {
+      "items": {
+        "daily": {
+          "title": "Ofisleri we jaýlary gündelik arassalamak",
+          "desc": "Tertip boýunça goldaw arassalaýşy: iş güni başlanmanka, agşam ýa-da gün içinde.",
+          "includes": [
+            "Pollar: gury we çygly arassalaýyş",
+            "Iş üstleri we mebel",
+            "Tozany aýyrmak, aýnalar, gapylar",
+            "Hajathanalar we aşhana zolaklary",
+            "Zibili çykarmak, sarp edilýän materiallar"
+          ]
+        },
+        "periodic": {
+          "title": "Döwürleýin we umumy arassalaýyş",
+          "desc": "Hepdede, aýda ýa-da çärýekde bir gezek çuňňur arassalaýyş — gündeliki arassalaýşy doldurýar ýa-da onuň ýerine ýerine ýetirilýär.",
+          "includes": [
+            "Pollary hünär himiýasy bilen ýuwmak",
+            "Radiatorlar, plintuslar, yşyklandyryjylar",
+            "Ýetip bolmaýan ýerler we ýokarky üstler",
+            "Haýyş boýunça ýumşak mebeli arassalamak",
+            "Degilýän üstleri dezinfeksiýa etmek"
+          ]
+        },
+        "clinics": {
+          "title": "Klinikalar we lukmançylyk edaralary",
+          "desc": "Edaranyň düzgünnamasy boýunça sanitariýa işlenişi bilen we zolaklar boýunça aýratyn inwentar bilen arassalaýyş.",
+          "includes": [
+            "Üstleriň sanitariýa işlenişi",
+            "Gapy tutawaçlaryny we enjamlary dezinfeksiýa etmek",
+            "Zolaklar boýunça aýratyn inwentar",
+            "Näsaglary kabul etmek tertibi boýunça işlemek",
+            "Ýerine ýetirilen işleriň žurnaly"
+          ]
+        },
+        "shops": {
+          "title": "Dükanlar we söwda jaýlary",
+          "desc": "Köp adam geçýän ýerlerde arassa pollar we witrinalar — açylmanka we gün içinde.",
+          "includes": [
+            "Köp adam geçýän pollar",
+            "Witrinalar, tekjeler, kassa zolagy",
+            "Giriş bölegi we aýna gapylar",
+            "Ammar we kömekçi jaýlar",
+            "Iş wagtynda nobatçylykdaky arassalaýyş"
+          ]
+        },
+        "windows": {
+          "title": "Penjireler, gapylar we aýna üstler",
+          "desc": "Penjireleri, witrinalary, bölüjileri we gapylary içinden we daşyndan elýeterli beýiklikde ýuwmak.",
+          "includes": [
+            "Penjireler iki tarapdan, çarçuwalar we penjire aşaklary",
+            "Witrinalar we aýna bölüjiler",
+            "Giriş gapylary we ikinji gatyna çenli fasad aýnasy",
+            "Skotç, boýag, ýelimli yzlaryny aýyrmak"
+          ]
+        },
+        "renovation": {
+          "title": "Abatlaýyşdan soňky arassalaýyş",
+          "desc": "Göçüp gireniňizden öň gurluşyk tozanyny we ýasama işleriniň yzlaryny aýyrmak.",
+          "includes": [
+            "Ähli üstlerden gurluşyk tozany",
+            "Ergin, boýag we şpatlýowka galyndylary",
+            "Penjireleri we gapylary ýuwmak",
+            "Pollary soňky çygly arassalamak",
+            "Ylalaşyk boýunça ownuk gurluşyk zibilini daşamak"
+          ]
+        }
+      }
+    },
+    "outdoor": {
+      "items": {
+        "territory": {
+          "title": "Golaýdaky töweregi arassalamak",
+          "desc": "Howlular, duralgalar, ýodajyklar we giriş ýerleri — her gün arassa.",
+          "includes": [
+            "Süpürmek we zibil ýygnamak",
+            "Ýodajyklary we meýdançalary ýuwmak",
+            "Giriş ýerini arassalamak",
+            "Ýapraklary we möwsümleýin hapalanmalary arassalamak"
+          ]
+        },
+        "order": {
+          "title": "Tertibi saklamak",
+          "desc": "Töwerege yzygiderli aýlanmak, bellikleri bellemek we düzetmek.",
+          "includes": [
+            "Tertip we çek-list boýunça aýlanmak",
+            "Zibil gutularyny boşatmak",
+            "Duralgada we girişlerde tertip",
+            "Haýyş boýunça çalt arassalaýyş"
+          ]
+        },
+        "green": {
+          "title": "Ýaşyl zolaklara seretmek",
+          "desc": "Çemenlikler, gyrymsy agaçlar we gül düýpleri bütin möwsüm tertipli ýagdaýda.",
+          "includes": [
+            "Tertip boýunça suwarmak",
+            "Çemenligi gyrkmak",
+            "Gyrymsy agaçlary budamak",
+            "Gül düýplerinde haşal otlary aýyrmak we ýeri gowşatmak"
+          ]
+        },
+        "trees": {
+          "title": "Agaç oturtmak",
+          "desc": "Duşenbäniň howasyna laýyk görnüşleri saýlamak, oturtmak we ilkinji möwsümde seretmek.",
+          "includes": [
+            "Nahallary saýlamak",
+            "Oturtma çukurlaryny we toprak taýýarlamak",
+            "Oturtmak we daňmak",
+            "Kök ýaýýança suwarmak we seretmek"
+          ]
+        },
+        "flowers": {
+          "title": "Gül oturtmak we gül düýpleri",
+          "desc": "Girişde we töwerekde gül düýplerini we wazonlary möwsümleýin bezemek.",
+          "includes": [
+            "Taslama we ösümlikleri saýlamak",
+            "Topragy taýýarlamak",
+            "Bir ýyllyk we köp ýyllyk gülleri oturtmak",
+            "Möwsümleýin çalyşmak we seretmek"
+          ]
+        }
+      }
+    }
+  },
+  "audience": {
+    "title": "Kimlere hyzmat edýäris",
+    "subtitle": "Dürli obýektler — dürli düzgünnama. Öz görnüşiňizi saýlaň, kalkulýator ony arza goýar.",
+    "items": {
+      "office": {
+        "title": "Ofisler",
+        "scope": "Gündelik arassalaýyş, penjireler, hajathanalar, aşhanalar",
+        "imageAlt": "Açyk meýilnamaly arassa ofis"
+      },
+      "clinic": {
+        "title": "Klinikalar",
+        "scope": "Düzgünnama boýunça sanitariýa işlenişi",
+        "imageAlt": "Lukmançylyk klinikasynyň koridory"
+      },
+      "shop": {
+        "title": "Dükanlar",
+        "scope": "Pollar, witrinalar, giriş bölegi",
+        "imageAlt": "Dükanyň söwda zaly"
+      },
+      "home": {
+        "title": "Öýler",
+        "scope": "Umumy we yzygiderli arassalaýyş",
+        "imageAlt": "Hususy öýüň myhmanhanasy"
+      },
+      "territory": {
+        "title": "Töwerekler",
+        "scope": "Howly, duralga, çemenlikler, gül düýpleri",
+        "imageAlt": "Çemenligi bolan abadanlaşdyrylan howly"
+      }
+    },
+    "cta": "Hasaplamak",
+    "other": {
+      "title": "Başga obýekt",
+      "scope": "Ammar, okuw jaýy, bank, restoran — meseläňizi arzada beýan ediň"
+    }
+  },
+  "whyUs": {
+    "title": "Bize näme üçin ynanýarlar",
+    "subtitle": "Wada däl, mehanizmler: arassalaýyşyň öňünden bellidigi üçin takyk näme edýäris.",
+    "items": {
+      "equipment": {
+        "title": "Döwrebap enjamlar",
+        "desc": "Ýuwujy maşynlar, senagat tozan sorujylary, penjireler we töwerek üçin enjamlar — her obýektiň görnüşine aýratyn toplum. [tehnika parkyny anyklamak]"
+      },
+      "chemistry": {
+        "title": "Hünär himiýasy",
+        "desc": "Serişdeler üstüň görnüşine görä saýlanýar we görkezme boýunça mukdarlanýar: adamlar, mebel we örtükler üçin howpsuz."
+      },
+      "responsibility": {
+        "title": "Jogapkär çemeleşme",
+        "desc": "Bellenen brigada, geýim, obýekt boýunça gollanma we şertnama boýunça emläk üçin jogapkärçilik."
+      },
+      "quality": {
+        "title": "Hil gözegçiligi",
+        "desc": "Her obýekt boýunça çek-list, jogapkär menejer we baranymyzdan soň pikir alyşmak. Bellikleri maslahatlaşmaýarys, düzedýäris."
+      },
+      "regular": {
+        "title": "Yzygiderli hyzmat",
+        "desc": "Iş tertibiňize laýyk tertip — açylmanka, ýapylandan soň ýa-da gün içinde. Arassalaýyş bozulman işgäri çalyşmak."
+      },
+      "oneContractor": {
+        "title": "Bir potratçy",
+        "desc": "Jaýlar, golaýdaky töwerek we ýaşyllandyryş — bir şertnama, bir hasap, bir jogapkär."
+      }
+    }
+  },
+  "process": {
+    "title": "Nähili işleýäris",
+    "subtitle": "Arzadan yzygiderli arassalaýşa çenli dört ädim. Her ädim düşnükli netije bilen tamamlanýar.",
+    "cta": "Arza goýmak",
+    "steps": {
+      "request": {
+        "title": "Arza",
+        "desc": "Telefon, WhatsApp ýa-da Telegram arkaly, ýa-da sahypadaky hasaplama arkaly."
+      },
+      "visit": {
+        "title": "Baryp hasaplamak",
+        "desc": "Obýekti gözden geçirýäris, ölçeg alýarys, işleriň düzümini we tertibini teklip edýäris."
+      },
+      "schedule": {
+        "title": "Tertibi ylalaşmak",
+        "desc": "Şertnama, işleriň sanawy, iki tarapdan jogapkär şahslar."
+      },
+      "work": {
+        "title": "Arassalaýyş we hil gözegçiligi",
+        "desc": "Çek-list boýunça işleýäris, hasabat berýäris, siziň bellikleriňiz boýunça düzedýäris."
+      }
+    }
+  },
+  "beforeAfter": {
+    "title": "Öň we soň",
+    "subtitle": "Deňeşdirmek üçin süýşürgiji çekiň. Häzirlikçe bu ýerde suratlar — olar biziň obýektlerimiziň suratlary bilen çalşyrlar.",
+    "before": "Öň",
+    "after": "Soň",
+    "sliderLabel": "Öň we soň deňeşdirmesi: bölüjiniň ýagdaýy",
+    "placeholderCaption": "Suratlar: «Otag» jübüti emeli aň kömegi bilen döredildi, galanlary — stok suratlar (Unsplash). Safo Cleaning obýektleriniň hakyky suratlary bilen çalşyrlar.",
+    "pairs": {
+      "room": {
+        "label": "Otag",
+        "altBefore": "Şol bir otag arassalamazdan öň: tertipsizlik, toz we zibil",
+        "altAfter": "Şol bir otag arassalanyndan soň: arassa we tertipli"
+      },
+      "lawn": {
+        "label": "Töwerek",
+        "altBefore": "Seredilmezden öň äsgerilmedik, ot basan howly",
+        "altAfter": "Gyrkylan tertipli çemenlik, iş başyndaky işgärler"
+      },
+      "renovation": {
+        "label": "Abatlaýyşdan soň",
+        "altBefore": "Arassalamazdan öň gurluşyk zibili we tozany bolan jaý",
+        "altAfter": "Arassalanyndan soň giň jaýdaky arassa ýalpyldawuk pol"
+      }
+    }
+  },
+  "reviews": {
+    "title": "Seslenmeler",
+    "subtitle": "Bu ýerde edara we wezipe görkezilen müşderileriň seslenmeleri bolar. Häzirlikçe ýerine goýulýan tekstler görkezilýär.",
+    "placeholderBadge": "[REVIEW PLACEHOLDER]",
+    "prev": "Öňki sesleniş",
+    "next": "Indiki sesleniş",
+    "items": {
+      "r1": {
+        "quote": "Seslenişiň teksti müşderi bilen ylalaşylandan soň peýda bolar. Ýerine goýulýan tekst uzynlygy we formaty görkezýär: yzygiderlilik, hil we aragatnaşyk barada iki-üç sözlem.",
+        "author": "[Wezipesi]",
+        "context": "[Obýektiň görnüşi], Duşenbe"
+      },
+      "r2": {
+        "quote": "Seslenişiň teksti müşderi bilen ylalaşylandan soň peýda bolar. Klinika ýa-da lukmançylyk merkezine hyzmat barada seslenişiň ýerine goýulýan teksti.",
+        "author": "[Wezipesi]",
+        "context": "[Klinika], Duşenbe"
+      },
+      "r3": {
+        "quote": "Seslenişiň teksti müşderi bilen ylalaşylandan soň peýda bolar. Töwerege seretmek we ýaşyllandyryş barada seslenişiň ýerine goýulýan teksti.",
+        "author": "[Wezipesi]",
+        "context": "[Ýaşaýyş toplumy], Duşenbe"
+      },
+      "r4": {
+        "quote": "Seslenişiň teksti müşderi bilen ylalaşylandan soň peýda bolar. Söwda jaýy barada seslenişiň ýerine goýulýan teksti.",
+        "author": "[Wezipesi]",
+        "context": "[Dükan], Duşenbe"
+      }
+    }
+  },
+  "faq": {
+    "title": "Köp berilýän soraglar",
+    "subtitle": "Iň köp soralýan zatlar barada gysgaça. Soragyňyz sanawda ýok bolsa — bize ýazyň.",
+    "items": {
+      "price": {
+        "q": "Arassalaýyş näçeden?",
+        "a": "Baha meýdana, obýektiň görnüşine, ýygylygyna we işleriň sanawyna bagly. Biz «-dan başlap» bahalary çap etmeýäris, sebäbi meýdany deň iki arassalaýşyň göwrümi birnäçe esse tapawutlanyp biler. Sahypadaky hasaplamany dolduryň ýa-da bize ýazyň — jikme-jiklikleri anyklanyňdan soň takyk mukdar bilen jogap bereris."
+      },
+      "calculation": {
+        "q": "Baha nähili hasaplanylýar?",
+        "a": "Esasy parametrler — meýdany we döwürleýinligi. Oňa işleriň düzümi goşulýar: penjireler, sanitariýa işlenişi, töwerek, ýaşyllandyryş. Yzygiderli hyzmat üçin şertnama boýunça aýlyk baha teklip edýäris. Gözden geçirmek we ölçemek üçin obýekte baryp görmek: [şertlerini anyklamak]."
+      },
+      "regular": {
+        "q": "Yzygiderli arassalaýşy sargyt etse bolýarmy?",
+        "a": "Hawa, bu biziň işimiziň esasy görnüşi. Her gün, hepdede birnäçe gezek, hepdede bir gezek ýa-da aýda bir gezek — tertibi obýektiň iş tertibine görä saýlaýarys we şertnama ýazýarys."
+      },
+      "business": {
+        "q": "Ofisler we edaralar bilen işleýärsiňizmi?",
+        "a": "Hawa, hukuk şahslar bilen şertnama esasynda işleýäris. Buhgalteriýa üçin resminamalar: [anyklamak: hasap, akt, töleg görnüşi]. Obýekte jogapkär menejer bellenýär."
+      },
+      "renovation": {
+        "q": "Abatlaýyşdan soň arassalaýşy sargyt etse bolýarmy?",
+        "a": "Hawa. Ähli üstlerden gurluşyk tozanyny, ergin we boýag galyndylaryny arassalaýarys, penjireleri we gapylary ýuwýarys, soňky çygly arassalaýşy geçirýäris. Ownuk gurluşyk zibilini daşamak aýratyn maslahatlaşylýar."
+      },
+      "territory": {
+        "q": "Töwerege hemişelik esasda hyzmat etse bolýarmy?",
+        "a": "Hawa. Golaýdaky töweregi arassalamak, tertibi saklamak, çemenliklere we gül düýplerine seretmek, möwsümleýin oturtmalar — muny jaýlary arassalamak bilen bilelikde bir şertnama girizmek bolýar."
+      }
+    }
+  },
+  "ctaBand": {
+    "quote": {
+      "title": "Hasaplamaga taýynmy?",
+      "text": "Dört meýdany dolduryň — arza bir minutda WhatsApp ýa-da Telegram-a gidýär."
+    },
+    "questions": {
+      "title": "Soraglaryňyz galdymy?",
+      "text": "Jaň ediň ýa-da ýazyň — jogap bereris we obýektiňize haýsy hyzmat görnüşiniň laýykdygyny aýdyp bereris."
+    }
+  },
+  "contacts": {
+    "title": "Aragatnaşyk",
+    "subtitle": "Amatly aragatnaşyk usulyny saýlaň. Iş wagtynda jogap berýäris, sahypadan gelen arzalary derrew görýäris.",
+    "phone": "Telefon",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "instagram": "Instagram",
+    "address": "Salgy",
+    "hours": "Iş wagty",
+    "addressValue": "Duşenbe, Rudaki şaýoly, 45",
+    "hoursValue": "Db–Şb 08:00–20:00, Ýb — haýyş boýunça",
+    "showMap": "Kartany görkezmek",
+    "mapPlaceholder": "[MAP EMBED] — karta salgy görkezilenden soň peýda bolar",
+    "mapTitle": "Karta: bizi nädip tapmaly"
+  },
+  "footer": {
+    "owner": "Ýolbaşçy",
+    "navTitle": "Bölümler",
+    "contactsTitle": "Aragatnaşyk",
+    "langTitle": "Dil",
+    "rights": "Ähli hukuklar goralan.",
+    "placeholderNotice": "Gönüburçly ýaýlardaky maglumatlar — hakyky maglumat berilýänçä ýerine goýulýan tekstlerdir."
+  },
+  "notFound": {
+    "title": "Beýle sahypa ýok",
+    "text": "Baglanyşyk könelen bolmagy mümkin. Baş sahypa dolanyň — gerek zatlaryň hemmesi şol ýerde: hyzmatlar, hasaplama we aragatnaşyk.",
+    "cta": "Baş sahypa"
+  }
+}

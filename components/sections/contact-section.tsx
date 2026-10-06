@@ -13,11 +13,11 @@ export function ContactSection() {
 
   const rows: Array<{ key: string; icon: React.ReactNode; label: string; value: string; href?: string; external?: boolean }> = [
     { key: "phone", icon: <Phone className="size-5" aria-hidden />, label: t("phone"), value: siteConfig.phone, href: telHref },
-    { key: "whatsapp", icon: <WhatsAppIcon size={20} />, label: t("whatsapp"), value: siteConfig.whatsapp, href: whatsappUrl(th("whatsappGreeting")), external: true },
-    { key: "telegram", icon: <TelegramIcon size={20} />, label: t("telegram"), value: `@${siteConfig.telegram}`, href: telegramUrl(), external: true },
+    { key: "whatsapp", icon: <WhatsAppIcon size={20} />, label: t("whatsapp"), value: siteConfig.phone, href: whatsappUrl(th("whatsappGreeting")), external: true },
+    { key: "telegram", icon: <TelegramIcon size={20} />, label: t("telegram"), value: siteConfig.telegram.startsWith("+") ? siteConfig.phone : `@${siteConfig.telegram}`, href: telegramUrl(), external: true },
     { key: "instagram", icon: <InstagramIcon size={20} />, label: t("instagram"), value: `@${siteConfig.instagram}`, href: instagramUrl, external: true },
-    { key: "address", icon: <MapPin className="size-5" aria-hidden />, label: t("address"), value: siteConfig.address },
-    { key: "hours", icon: <Clock className="size-5" aria-hidden />, label: t("hours"), value: siteConfig.hours },
+    { key: "address", icon: <MapPin className="size-5" aria-hidden />, label: t("address"), value: t("addressValue") },
+    { key: "hours", icon: <Clock className="size-5" aria-hidden />, label: t("hours"), value: t("hoursValue") },
   ];
 
   return (

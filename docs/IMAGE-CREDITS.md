@@ -16,3 +16,9 @@ All photos below are from Unsplash under the Unsplash License (free for commerci
 | public/images/ba-renovation-after.jpg | Before/after — post-renovation (after) | Craftsman Concrete Floors | https://unsplash.com/photos/bYcnue7qKNk |
 
 Before/after pairs are illustrative (two different locations each) and are labelled as such in the UI; replace with genuine paired photos of the company's own objects. Not used on purpose: reviews (must be real, permissioned), team photos (must be real staff).
+
+## AI-generated
+
+| File | Source | Note |
+|---|---|---|
+| `ba-room-before.jpg`, `ba-room-after.jpg` | Generated with Google Gemini (2026-10-06) | Same room, edited from clean → dirty. Labelled as AI illustration on the site; replace with real paired photos. |

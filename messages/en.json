@@ -1,0 +1,487 @@
+{
+  "meta": {
+    "title": "Professional Cleaning and Grounds Maintenance in Dushanbe — Safo Cleaning",
+    "description": "Cleaning for offices, clinics, shops and homes, plus grounds upkeep and landscaping in Dushanbe. Regular service under contract, modern equipment, quality control.",
+    "ogTitle": "Cleaning and Grounds Maintenance in Dushanbe",
+    "ogDescription": "Offices, clinics, shops, homes and grounds. Regular service under contract."
+  },
+  "common": {
+    "brand": "Safo Cleaning",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "getQuote": "Get a quote",
+    "placeholderNote": "Details will be updated"
+  },
+  "nav": {
+    "services": "Services",
+    "whyUs": "Why us",
+    "process": "How we work",
+    "faq": "FAQ",
+    "contacts": "Contacts"
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "switchLanguage": "Change language",
+    "mainNav": "Main navigation"
+  },
+  "hero": {
+    "title": "Professional Cleaning and Grounds Maintenance in Dushanbe",
+    "subtitle": "Offices, clinics, shops, homes and surrounding grounds. Regular service under contract, modern equipment and responsible staff.",
+    "ctaCall": "Call {phone}",
+    "whatsappGreeting": "Hello! I'd like to learn about your cleaning and grounds maintenance services.",
+    "imageAlt": "A cleaning company employee with a floor scrubber in an office corridor",
+    "microTrust": {
+      "contract": "We work under contract",
+      "scope": "Interiors, grounds and landscaping",
+      "visit": "On-site visit and accurate quote"
+    },
+    "starter": {
+      "objectType": "Property type",
+      "area": "Area, m²",
+      "submit": "Get an estimate"
+    }
+  },
+  "trust": {
+    "label": "About us at a glance",
+    "launch": "year the company launched",
+    "launchValue": "2026",
+    "city": "city where we work",
+    "cityValue": "Dushanbe",
+    "languages": "site languages",
+    "languagesValue": "11",
+    "clients": "taking on our first properties",
+    "clientsValue": "Now open"
+  },
+  "actionBar": {
+    "label": "Quick actions",
+    "quote": "Quote",
+    "whatsapp": "WhatsApp",
+    "call": "Call"
+  },
+  "calculator": {
+    "objectTypes": {
+      "office": "Office",
+      "clinic": "Clinic",
+      "shop": "Shop",
+      "home": "Home",
+      "territory": "Grounds",
+      "other": "Other"
+    },
+    "title": "Cost estimate",
+    "subtitle": "Fill in four fields and the calculator instantly shows an approximate cost, and you can send your request via WhatsApp or Telegram in one tap. We'll give you the exact price after inspecting the property.",
+    "fields": {
+      "objectType": "Property type",
+      "area": "Area, m²",
+      "areaTerritory": "Grounds area, m²",
+      "frequency": "Frequency",
+      "extras": "Extras",
+      "name": "Your name",
+      "nameOptional": "optional",
+      "comment": "Comment",
+      "commentPlaceholder": "Address, preferred time, property details"
+    },
+    "frequencies": {
+      "once": "One-time",
+      "daily": "Daily",
+      "severalPerWeek": "Several times a week",
+      "weekly": "Weekly",
+      "monthly": "Monthly"
+    },
+    "extras": {
+      "windows": "Windows",
+      "renovation": "Post-renovation cleaning",
+      "sanitary": "Sanitization",
+      "territory": "Grounds maintenance",
+      "landscaping": "Landscaping",
+      "other": "Other"
+    },
+    "errors": {
+      "area": "Enter an area of at least 10 m²"
+    },
+    "preview": "Request text",
+    "sendWhatsapp": "Send via WhatsApp",
+    "sendTelegram": "Send via Telegram",
+    "copy": "Copy text",
+    "copied": "Text copied",
+    "noPrice": "This is an approximate estimate based on demo rates. The exact cost depends on the condition of the property and the schedule — we'll provide it after an inspection.",
+    "message": {
+      "greeting": "Hello! I'd like a cleaning cost estimate.",
+      "objectType": "Property type",
+      "area": "Area",
+      "areaUnit": "m²",
+      "frequency": "Frequency",
+      "extras": "Additional services",
+      "name": "Name",
+      "comment": "Comment",
+      "language": "Language",
+      "none": "—",
+      "estimate": "Approximate calculator estimate"
+    },
+    "estimate": {
+      "title": "Approximate cost",
+      "demoBadge": "Demo rates",
+      "perMonth": "per month",
+      "oneOff": "per cleaning",
+      "perVisit": "Per visit",
+      "visitsPerMonth": "Visits per month",
+      "extras": "Extras (one-time)",
+      "extrasUnpriced": "\"Other\" will be quoted separately",
+      "volumeDiscount": "Volume discount",
+      "minOrder": "Minimum order",
+      "currency": "TJS",
+      "empty": "Enter the area and your estimate will appear here.",
+      "approx": "≈"
+    }
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Two areas of responsibility: inside the building and around it. Order each service separately or combine them in a single contract.",
+    "tabs": {
+      "indoor": "Interior cleaning",
+      "outdoor": "Grounds and landscaping"
+    },
+    "includesTitle": "What's included",
+    "calculate": "Estimate for my property",
+    "notFound": "Can't find the service you need?",
+    "notFoundText": "Message us and we'll find a solution for your property.",
+    "notFoundCta": "Message us on WhatsApp",
+    "notFoundMessage": "Hello! I have a non-standard cleaning request and would like to discuss it.",
+    "indoor": {
+      "items": {
+        "daily": {
+          "title": "Daily cleaning of offices and premises",
+          "desc": "Routine cleaning on schedule: before the workday starts, in the evening or during the day.",
+          "includes": [
+            "Floors: dry and wet cleaning",
+            "Work surfaces and furniture",
+            "Dusting, mirrors, doors",
+            "Restrooms and kitchen areas",
+            "Trash removal, supplies restocking"
+          ]
+        },
+        "periodic": {
+          "title": "Periodic and deep cleaning",
+          "desc": "Deep cleaning weekly, monthly or quarterly — it complements daily cleaning or replaces it.",
+          "includes": [
+            "Floor washing with professional chemicals",
+            "Radiators, baseboards, light fixtures",
+            "Hard-to-reach places and high surfaces",
+            "Upholstery cleaning on request",
+            "Disinfection of high-touch surfaces"
+          ]
+        },
+        "clinics": {
+          "title": "Clinics and medical facilities",
+          "desc": "Cleaning with sanitization per your facility's protocol, using separate equipment for each zone.",
+          "includes": [
+            "Surface sanitization",
+            "Disinfection of door handles and equipment",
+            "Separate equipment for each zone",
+            "Work scheduled around patient appointments",
+            "Log of completed work"
+          ]
+        },
+        "shops": {
+          "title": "Shops and retail spaces",
+          "desc": "Clean floors and display windows in high-traffic areas — before opening and throughout the day.",
+          "includes": [
+            "High-traffic floors",
+            "Display windows, shelving, checkout area",
+            "Entrance area and glass doors",
+            "Storage and utility rooms",
+            "On-duty cleaning during business hours"
+          ]
+        },
+        "windows": {
+          "title": "Windows, doors and glass surfaces",
+          "desc": "Washing of windows, display windows, partitions and doors, inside and out, at accessible heights.",
+          "includes": [
+            "Windows on both sides, frames and sills",
+            "Display windows and glass partitions",
+            "Entrance doors and facade glazing up to the second floor",
+            "Removal of tape, paint and sticker residue"
+          ]
+        },
+        "renovation": {
+          "title": "Post-renovation cleaning",
+          "desc": "Removal of construction dust and finishing residue before move-in.",
+          "includes": [
+            "Construction dust from all surfaces",
+            "Mortar, paint and grout residue",
+            "Window and door washing",
+            "Final wet floor cleaning",
+            "Removal of small construction debris by arrangement"
+          ]
+        }
+      }
+    },
+    "outdoor": {
+      "items": {
+        "territory": {
+          "title": "Cleaning of surrounding grounds",
+          "desc": "Yards, parking lots, paths and entrance areas — clean every day.",
+          "includes": [
+            "Sweeping and litter collection",
+            "Washing of paths and platforms",
+            "Entrance area cleaning",
+            "Removal of leaves and seasonal debris"
+          ]
+        },
+        "order": {
+          "title": "Keeping things in order",
+          "desc": "Regular patrols of the grounds, with issues logged and resolved.",
+          "includes": [
+            "Patrols on schedule and checklist",
+            "Emptying of bins",
+            "Order in the parking lot and at entrances",
+            "Prompt cleaning on request"
+          ]
+        },
+        "green": {
+          "title": "Green space care",
+          "desc": "Lawns, shrubs and flower beds kept well maintained all season.",
+          "includes": [
+            "Scheduled watering",
+            "Lawn mowing",
+            "Shrub pruning",
+            "Weeding and loosening of flower beds"
+          ]
+        },
+        "trees": {
+          "title": "Tree planting",
+          "desc": "Species selected for Dushanbe's climate, with planting and care during the first season.",
+          "includes": [
+            "Seedling selection",
+            "Preparation of planting pits and soil",
+            "Planting and staking",
+            "Watering and care during establishment"
+          ]
+        },
+        "flowers": {
+          "title": "Flower planting and flower beds",
+          "desc": "Seasonal arrangements for flower beds and planters at the entrance and across the grounds.",
+          "includes": [
+            "Design and plant selection",
+            "Soil preparation",
+            "Planting of annuals and perennials",
+            "Seasonal replacement and care"
+          ]
+        }
+      }
+    }
+  },
+  "audience": {
+    "title": "Who we serve",
+    "subtitle": "Different properties, different protocols. Choose your type and the calculator will add it to your request.",
+    "items": {
+      "office": {
+        "title": "Offices",
+        "scope": "Daily cleaning, windows, restrooms, kitchens",
+        "imageAlt": "Clean open-plan office"
+      },
+      "clinic": {
+        "title": "Clinics",
+        "scope": "Sanitization per protocol",
+        "imageAlt": "Medical clinic corridor"
+      },
+      "shop": {
+        "title": "Shops",
+        "scope": "Floors, display windows, entrance area",
+        "imageAlt": "Shop sales floor"
+      },
+      "home": {
+        "title": "Homes",
+        "scope": "Deep and regular cleaning",
+        "imageAlt": "Living room of a private home"
+      },
+      "territory": {
+        "title": "Grounds",
+        "scope": "Yard, parking, lawns, flower beds",
+        "imageAlt": "Landscaped yard with a lawn"
+      }
+    },
+    "cta": "Get an estimate",
+    "other": {
+      "title": "Another property",
+      "scope": "Warehouse, school, bank, restaurant — describe your task in the request"
+    }
+  },
+  "whyUs": {
+    "title": "Why clients trust us",
+    "subtitle": "Not promises, but mechanisms: exactly what we do to make cleaning predictable.",
+    "items": {
+      "equipment": {
+        "title": "Modern equipment",
+        "desc": "Floor scrubbers, industrial vacuum cleaners, window and grounds equipment — a dedicated set for each type of property. [confirm equipment fleet]"
+      },
+      "chemistry": {
+        "title": "Professional chemicals",
+        "desc": "Products are chosen for each surface type and dosed per instructions: safe for people, furniture and finishes."
+      },
+      "responsibility": {
+        "title": "Responsible approach",
+        "desc": "A dedicated crew, uniforms, site briefing and liability for property under the contract."
+      },
+      "quality": {
+        "title": "Quality control",
+        "desc": "A checklist for every property, a responsible manager and feedback after each visit. We fix issues rather than debate them."
+      },
+      "regular": {
+        "title": "Regular service",
+        "desc": "A schedule that fits your hours — before opening, after closing or during the day. Staff replaced without disrupting cleaning."
+      },
+      "oneContractor": {
+        "title": "One contractor",
+        "desc": "Interiors, surrounding grounds and landscaping — one contract, one invoice, one point of responsibility."
+      }
+    }
+  },
+  "process": {
+    "title": "How we work",
+    "subtitle": "Four steps from request to regular cleaning. Each step ends with a clear result.",
+    "cta": "Submit a request",
+    "steps": {
+      "request": {
+        "title": "Request",
+        "desc": "By phone, WhatsApp or Telegram, or through the estimate on our site."
+      },
+      "visit": {
+        "title": "Visit and quote",
+        "desc": "We inspect the property, take measurements, and propose the scope of work and schedule."
+      },
+      "schedule": {
+        "title": "Schedule agreement",
+        "desc": "Contract, list of works, responsible persons on both sides."
+      },
+      "work": {
+        "title": "Cleaning and quality control",
+        "desc": "We work from a checklist, report back and adjust based on your feedback."
+      }
+    }
+  },
+  "beforeAfter": {
+    "title": "Before and after",
+    "subtitle": "Drag the slider to compare. These are illustrations for now — they will be replaced with photos of our projects.",
+    "before": "Before",
+    "after": "After",
+    "sliderLabel": "Before and after comparison: divider position",
+    "placeholderCaption": "Illustrations: the \"Room\" pair was created with AI, the others are stock photos (Unsplash). They will be replaced with real photos of Safo Cleaning projects.",
+    "pairs": {
+      "room": {
+        "label": "Room",
+        "altBefore": "The same room before cleaning: clutter, dust and trash",
+        "altAfter": "The same room after cleaning: clean and tidy"
+      },
+      "lawn": {
+        "label": "Grounds",
+        "altBefore": "Neglected, overgrown yard before maintenance",
+        "altAfter": "Well-kept mown lawn with staff at work"
+      },
+      "renovation": {
+        "label": "After renovation",
+        "altBefore": "Room with construction debris and dust before cleaning",
+        "altAfter": "Clean, shiny floor in a spacious room after cleaning"
+      }
+    }
+  },
+  "reviews": {
+    "title": "Reviews",
+    "subtitle": "Client reviews will appear here, with the organization and job title. Placeholders are shown for now.",
+    "placeholderBadge": "[REVIEW PLACEHOLDER]",
+    "prev": "Previous review",
+    "next": "Next review",
+    "items": {
+      "r1": {
+        "quote": "The review text will appear once approved by the client. This placeholder shows the length and format: two or three sentences about regularity, quality and communication.",
+        "author": "[Job title]",
+        "context": "[Property type], Dushanbe"
+      },
+      "r2": {
+        "quote": "The review text will appear once approved by the client. This is a placeholder for a review about servicing a clinic or medical center.",
+        "author": "[Job title]",
+        "context": "[Clinic], Dushanbe"
+      },
+      "r3": {
+        "quote": "The review text will appear once approved by the client. This is a placeholder for a review about grounds maintenance and landscaping.",
+        "author": "[Job title]",
+        "context": "[Residential complex], Dushanbe"
+      },
+      "r4": {
+        "quote": "The review text will appear once approved by the client. This is a placeholder for a review about a retail space.",
+        "author": "[Job title]",
+        "context": "[Shop], Dushanbe"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "A short guide to what people ask most often. If your question isn't listed, message us.",
+    "items": {
+      "price": {
+        "q": "How much does cleaning cost?",
+        "a": "The cost depends on the area, property type, frequency and scope of work. We don't publish \"from\" prices, because two cleanings of the same area can differ many times over in workload. Fill in the estimate on our site or message us — we'll reply with a specific amount once we've clarified the details."
+      },
+      "calculation": {
+        "q": "How is the cost calculated?",
+        "a": "The base parameters are area and frequency. The scope of work is added on top: windows, sanitization, grounds, landscaping. For regular service we offer a monthly price under contract. On-site visit for inspection and measurements: [confirm terms]."
+      },
+      "regular": {
+        "q": "Can I order regular cleaning?",
+        "a": "Yes, this is our main format. Daily, several times a week, weekly or monthly — we tailor the schedule to the property's operating hours and record it in the contract."
+      },
+      "business": {
+        "q": "Do you work with offices and organizations?",
+        "a": "Yes, we work with legal entities under contract. Documents for accounting: [confirm: invoice, completion act, payment method]. A responsible manager is assigned to your property."
+      },
+      "renovation": {
+        "q": "Can I order post-renovation cleaning?",
+        "a": "Yes. We remove construction dust from all surfaces, mortar and paint residue, wash windows and doors, and finish with a wet floor cleaning. Removal of small construction debris is discussed separately."
+      },
+      "territory": {
+        "q": "Can you maintain grounds on an ongoing basis?",
+        "a": "Yes. Cleaning of surrounding grounds, keeping things in order, care of lawns and flower beds, seasonal planting — all of it can be included in one contract along with interior cleaning."
+      }
+    }
+  },
+  "ctaBand": {
+    "quote": {
+      "title": "Ready to get an estimate?",
+      "text": "Fill in four fields and your request goes to WhatsApp or Telegram within a minute."
+    },
+    "questions": {
+      "title": "Still have questions?",
+      "text": "Call or message us — we'll answer and suggest which service format fits your property."
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "subtitle": "Choose the way to reach us that suits you. We reply during business hours and see website requests right away.",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "instagram": "Instagram",
+    "address": "Address",
+    "hours": "Business hours",
+    "addressValue": "45 Rudaki Avenue, Dushanbe",
+    "hoursValue": "Mon–Sat 08:00–20:00, Sun by request",
+    "showMap": "Show map",
+    "mapPlaceholder": "[MAP EMBED] — the map will appear once the address is provided",
+    "mapTitle": "Map: how to find us"
+  },
+  "footer": {
+    "owner": "Director",
+    "navTitle": "Sections",
+    "contactsTitle": "Contacts",
+    "langTitle": "Language",
+    "rights": "All rights reserved.",
+    "placeholderNotice": "Details in square brackets are placeholders until real information is provided."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The link may be outdated. Go back to the home page — everything you need is there: services, estimate and contacts.",
+    "cta": "Back to home"
+  }
+}

@@ -12,33 +12,39 @@ function resolveSiteUrl(): string {
  * before launch. `grep -rn "\[[A-Z ]*\]" lib/site-config.ts` lists what is still missing.
  */
 export const siteConfig = {
-  name: "[COMPANY NAME]",
+  name: "Safo Cleaning",
   owner: "Musavvir Kamolov",
   goalStatement: "[GOAL STATEMENT]",
   city: "Dushanbe",
-  phone: "[PHONE]",
+  phone: "+992 022051313",
   /** Digits only, international format, no plus sign — used for wa.me links. */
-  whatsapp: "[WHATSAPP]",
-  /** Telegram username without @. */
-  telegram: "[TELEGRAM]",
+  whatsapp: "992022051313",
+  /** Telegram username without @, or a phone number with "+" (t.me/+992… opens the chat by number). */
+  telegram: "+992022051313",
   /** Instagram username without @. */
-  instagram: "[INSTAGRAM]",
-  address: "[ADDRESS]",
-  hours: "[HOURS]",
+  instagram: "safo.cleaning.tj",
+  /**
+   * DEMO contact data (address, hours, Instagram, map) — placeholders that look real for previews.
+   * Shown text is localized in messages (`contacts.addressValue` / `contacts.hoursValue`);
+   * these English values feed SEO only, and JSON-LD skips them while `demoContacts` is true.
+   */
+  demoContacts: true,
+  address: "45 Rudaki Avenue, Dushanbe",
+  hours: "Mo-Sa 08:00-20:00",
   /** Google/Yandex maps embed URL, or null to show the placeholder panel. */
-  mapEmbedUrl: null as string | null,
+  mapEmbedUrl: `https://www.google.com/maps?q=${encodeURIComponent("Rudaki Avenue 45, Dushanbe")}&output=embed` as string | null,
   /**
    * Public site URL for canonical/OG/sitemap.
    * Resolution order: NEXT_PUBLIC_SITE_URL → Vercel production URL → localhost.
    * No custom domain is needed: the *.vercel.app address is picked up automatically.
    */
   url: resolveSiteUrl(),
-  stats: [
-    { key: "objects", value: null, placeholder: "[XX+]" },
-    { key: "years", value: null, placeholder: "[XX]" },
-    { key: "staff", value: null, placeholder: "[XX+]" },
-    { key: "districts", value: null, placeholder: "[XX]" },
-  ] as ReadonlyArray<{ key: "objects" | "years" | "staff" | "districts"; value: number | null; placeholder: string }>,
+  /**
+   * Trust strip. The company is just launching, so these are honest launch facts rather than
+   * invented counters — swap in real numbers (objects served, staff) once they exist.
+   * Each key maps to `trust.<key>` (label) and `trust.<key>Value` (big text) in messages.
+   */
+  stats: ["launch", "city", "languages", "clients"] as const,
 } as const;
 
 export type SiteConfig = typeof siteConfig;

@@ -20,7 +20,7 @@ export function AudienceCard({ objectType, icon, title, scope, image, imageAlt, 
     <button
       type="button"
       onClick={() => prefillQuote({ objectType })}
-      className="group relative flex aspect-[3/4] w-full flex-col justify-end overflow-hidden rounded-md text-left text-white outline-none focus-visible:ring-2 focus-visible:ring-teal focus-visible:ring-offset-2"
+      className="group relative flex aspect-[3/4] w-full flex-col justify-end overflow-hidden rounded-md text-start text-white outline-none focus-visible:ring-2 focus-visible:ring-teal focus-visible:ring-offset-2"
     >
       {image.src ? (
         <Image src={image.src} alt={imageAlt} fill sizes="(min-width: 1024px) 20vw, (min-width: 640px) 45vw, 80vw" className="object-cover transition-transform duration-300 group-hover:scale-[1.03]" />
@@ -49,7 +49,7 @@ export function OtherObjectCard({ title, scope, cta }: { title: string; scope: s
     <button
       type="button"
       onClick={() => prefillQuote({ objectType: "other" })}
-      className="group flex aspect-[3/4] w-full flex-col justify-end rounded-md border border-dashed border-teal/50 bg-mint p-5 text-left outline-none transition-colors hover:bg-mint-deep focus-visible:ring-2 focus-visible:ring-teal focus-visible:ring-offset-2"
+      className="group flex aspect-[3/4] w-full flex-col justify-end rounded-md border border-dashed border-teal/50 bg-mint p-5 text-start outline-none transition-colors hover:bg-mint-deep focus-visible:ring-2 focus-visible:ring-teal focus-visible:ring-offset-2"
     >
       <h3 className="text-h3 font-semibold text-forest">{title}</h3>
       <p className="mt-1 text-sm text-slate">{scope}</p>

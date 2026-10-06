@@ -51,7 +51,7 @@ export function BeforeAfterSlider({ before, after, caption, labels, altBefore, a
       <div
         role="img"
         aria-label={alt}
-        className={cn("absolute inset-0 flex items-end p-5 text-[13px] text-slate", tone === "before" ? "justify-start bg-[#cfd8d4]" : "justify-end bg-mint-deep")}
+        className={cn("absolute inset-0 flex items-end p-5 text-[13px] text-slate", tone === "before" ? "justify-start bg-[#d2dbe6]" : "justify-end bg-mint-deep")}
       >
         <span className="max-w-[26ch]">{caption}</span>
       </div>

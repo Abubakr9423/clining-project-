@@ -8,6 +8,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/co
 import { WhatsAppIcon } from "@/components/icons/brand";
 import { navItems, navHref } from "./nav-links";
 import { LanguageSwitch } from "./language-switch";
+import { Logo } from "@/components/brand/logo";
 import { telHref, whatsappUrl } from "@/lib/links";
 import { siteConfig } from "@/lib/site-config";
 
@@ -26,7 +27,9 @@ export function MobileMenu({ whatsappGreeting }: { whatsappGreeting: string }) {
       </SheetTrigger>
       <SheetContent side="right" className="flex w-[min(100vw,360px)] flex-col gap-0 p-0">
         <SheetHeader className="border-b border-line px-6 py-5">
-          <SheetTitle className="font-heading text-lg text-forest">{siteConfig.name}</SheetTitle>
+          <SheetTitle aria-label={siteConfig.name}>
+            <Logo />
+          </SheetTitle>
         </SheetHeader>
         <nav aria-label={ta("mainNav")} className="flex flex-col px-2 py-3">
           {navItems.map((item) => (
@@ -41,7 +44,7 @@ export function MobileMenu({ whatsappGreeting }: { whatsappGreeting: string }) {
           ))}
         </nav>
         <div className="mt-auto flex flex-col gap-3 border-t border-line px-6 py-6">
-          <LanguageSwitch className="mb-2" />
+          <LanguageSwitch variant="list" className="mb-2" />
           <Button asChild size="xl">
             <a href={telHref}>
               <Phone /> {tc("call")}

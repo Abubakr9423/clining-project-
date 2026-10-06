@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Container } from "./container";
 import { LanguageSwitch } from "./language-switch";
+import { Logo } from "@/components/brand/logo";
 import { navItems, navHref } from "./nav-links";
 import { InstagramIcon, TelegramIcon, WhatsAppIcon } from "@/components/icons/brand";
 import { instagramUrl, telHref, telegramUrl, whatsappUrl } from "@/lib/links";
@@ -16,7 +17,7 @@ export function Footer() {
     <footer className="border-t border-line bg-white">
       <Container className="grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-12">
         <div className="lg:col-span-5">
-          <p className="font-heading text-lg font-bold text-forest">{siteConfig.name}</p>
+          <Logo />
           <p className="mt-3 max-w-[44ch] text-sm leading-relaxed text-slate">{siteConfig.goalStatement}</p>
           <p className="mt-4 text-sm text-slate">
             {t("owner")}: <span className="font-medium text-ink">{siteConfig.owner}</span>
@@ -42,8 +43,8 @@ export function Footer() {
                 {siteConfig.phone}
               </a>
             </li>
-            <li className="text-ink/80">{siteConfig.address}</li>
-            <li className="text-ink/80">{siteConfig.hours}</li>
+            <li className="text-ink/80">{tc("addressValue")}</li>
+            <li className="text-ink/80">{tc("hoursValue")}</li>
           </ul>
           <ul className="mt-4 flex gap-2">
             <li>
@@ -65,7 +66,7 @@ export function Footer() {
         </div>
         <div className="lg:col-span-2">
           <p className="text-sm font-semibold text-forest">{t("langTitle")}</p>
-          <LanguageSwitch className="mt-3" />
+          <LanguageSwitch variant="list" className="mt-3" />
         </div>
       </Container>
       <div className="border-t border-line">

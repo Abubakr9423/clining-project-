@@ -6,10 +6,10 @@ import { WhatsAppIcon } from "@/components/icons/brand";
 import { PlaceholderImage } from "@/components/ui/placeholder-image";
 import { HeroStarterCard } from "./hero-starter-card";
 import { HeroReveal } from "./hero-reveal";
+import { SoapBubbles } from "@/components/motion/soap-bubbles";
 import { images } from "@/content/images";
 import { anchors } from "@/lib/anchors";
 import { telHref, whatsappUrl } from "@/lib/links";
-import { siteConfig } from "@/lib/site-config";
 
 export function Hero() {
   const t = useTranslations("hero");
@@ -17,7 +17,8 @@ export function Hero() {
   const trust = [t("microTrust.contract"), t("microTrust.scope"), t("microTrust.visit")];
 
   return (
-    <section id={anchors.top} className="scroll-mt-20 pb-12 pt-8 md:pb-16 md:pt-14 lg:pt-16">
+    <section id={anchors.top} className="relative isolate scroll-mt-20 overflow-hidden pb-12 pt-8 md:pb-16 md:pt-14 lg:pt-16">
+      <SoapBubbles className="pointer-events-none absolute inset-0 z-[1]" />
       <Container className="lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-10">
         <HeroReveal className="lg:col-span-7">
           <h1 className="text-display font-extrabold">{t("title")}</h1>
@@ -34,8 +35,7 @@ export function Hero() {
               </Button>
               <Button asChild size="xl" variant="quiet" className="justify-center sm:justify-start">
                 <a href={telHref}>
-                  <Phone /> <span className="sm:hidden">{tc("call")}</span>
-                  <span className="hidden sm:inline">{t("ctaCall", { phone: siteConfig.phone })}</span>
+                  <Phone /> {tc("call")}
                 </a>
               </Button>
             </div>
@@ -68,7 +68,7 @@ export function Hero() {
             sizes="40vw"
             className="hidden aspect-[4/5] w-full lg:block"
           />
-          <HeroStarterCard className="mt-4 lg:absolute lg:-bottom-8 lg:-left-16 lg:mt-0 lg:w-[calc(100%+4rem)] xl:-left-24 xl:w-[calc(100%+6rem)]" />
+          <HeroStarterCard className="relative z-[2] mt-4 lg:absolute lg:-bottom-8 lg:-start-16 lg:mt-0 lg:w-[calc(100%+4rem)] xl:-start-24 xl:w-[calc(100%+6rem)]" />
         </div>
       </Container>
     </section>

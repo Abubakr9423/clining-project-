@@ -6,6 +6,7 @@ import { Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Container } from "./container";
 import { LanguageSwitch } from "./language-switch";
+import { Logo } from "@/components/brand/logo";
 import { MobileMenu } from "./mobile-menu";
 import { navItems, navHref } from "./nav-links";
 import { telHref } from "@/lib/links";
@@ -33,13 +34,8 @@ export function Header({ whatsappGreeting }: { whatsappGreeting: string }) {
       )}
     >
       <Container className={cn("flex items-center justify-between gap-4 transition-[height] duration-200", scrolled ? "h-16" : "h-20")}>
-        <a href="#top" className="flex min-w-0 items-center gap-2 font-heading text-base font-bold text-forest sm:text-lg">
-          <span aria-hidden className="grid size-8 place-items-center rounded-md bg-forest text-white">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-              <path d="M5 13l4 4L19 7" />
-            </svg>
-          </span>
-          <span className="truncate">{siteConfig.name}</span>
+        <a href="#top" aria-label={siteConfig.name} className="flex min-w-0 items-center">
+          <Logo />
         </a>
 
         <nav aria-label={ta("mainNav")} className="hidden items-center gap-1 lg:flex">

@@ -27,6 +27,12 @@ export const images = {
    * Replace with the company's own paired photos (same framing, same lens) as soon as they exist.
    */
   beforeAfter: {
+    /** AI-generated pair: the same room before and after cleaning (the caption says so). */
+    room: {
+      before: "/images/ba-room-before.jpg",
+      after: "/images/ba-room-after.jpg",
+      caption: "[PHOTO: комната до/после — ИИ-иллюстрация]",
+    },
     lawn: {
       before: "/images/ba-lawn-before.jpg",
       after: "/images/ba-lawn-after.jpg",

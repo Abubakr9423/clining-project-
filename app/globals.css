@@ -6,17 +6,17 @@
 /* Brand tokens (Phase 3 design system)                                */
 /* ------------------------------------------------------------------ */
 :root {
-  /* palette */
-  --forest: #0b3b34;
-  --teal: #0f6b5c;
-  --teal-hover: #0c5a4d;
-  --mint: #e8f3f0;
-  --mint-deep: #d3e7e1;
-  --canvas: #f3f6f5;
+  /* palette — navy + aqua (2026-10-06). Token names (forest/teal/mint) predate the switch from green; they now mean dark / primary / tint. */
+  --forest: #0e2440;
+  --teal: #1d5fa8;
+  --teal-hover: #174e8c;
+  --mint: #e8f0fa;
+  --mint-deep: #d0e0f2;
+  --canvas: #f4f7fb;
   --white: #ffffff;
-  --ink: #14201d;
-  --slate: #4a5954;
-  --line: #d5e0dc;
+  --ink: #111a2b;
+  --slate: #4b5668;
+  --line: #d7e0ec;
   --whatsapp: #25d366;
   --telegram: #2aabee;
   --danger: #b3261e;

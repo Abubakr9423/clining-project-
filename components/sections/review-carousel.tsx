@@ -7,11 +7,11 @@ export type ReviewCardData = { id: string; quote: string; author: string; contex
 
 export function ReviewCarousel({ items, placeholderBadge, prevLabel, nextLabel }: { items: ReviewCardData[]; placeholderBadge: string; prevLabel: string; nextLabel: string }) {
   return (
-    <Carousel opts={{ align: "start", loop: false }} className="relative">
+    <Carousel opts={{ align: "start", loop: false }} className="relative" dir="ltr">
       <CarouselContent className="-ml-4">
         {items.map((r) => (
           <CarouselItem key={r.id} className="pl-4 sm:basis-1/2 xl:basis-1/2">
-            <figure className="flex h-full flex-col rounded-md border border-line bg-white p-6">
+            <figure dir="auto" className="flex h-full flex-col rounded-md border border-line bg-white p-6">
               {r.placeholder ? (
                 <Badge variant="outline" className="mb-4 w-fit border-dashed border-line text-slate">
                   {placeholderBadge}

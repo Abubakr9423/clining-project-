@@ -1,0 +1,487 @@
+{
+  "meta": {
+    "title": "Duşanbe'de profesyonel iç mekan temizliği ve çevre bakımı — Safo Cleaning",
+    "description": "Duşanbe'de ofis, klinik, mağaza ve ev temizliği, çevre alan temizliği ve peyzaj. Sözleşmeyle düzenli hizmet, modern ekipman, kalite kontrol.",
+    "ogTitle": "Duşanbe'de iç mekan temizliği ve çevre bakımı",
+    "ogDescription": "Ofisler, klinikler, mağazalar, evler ve dış alanlar. Sözleşmeyle düzenli hizmet."
+  },
+  "common": {
+    "brand": "Safo Cleaning",
+    "call": "Ara",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "getQuote": "Teklif al",
+    "placeholderNote": "Bilgiler güncellenecek"
+  },
+  "nav": {
+    "services": "Hizmetler",
+    "whyUs": "Neden biz",
+    "process": "Nasıl çalışıyoruz",
+    "faq": "Sorular",
+    "contacts": "İletişim"
+  },
+  "a11y": {
+    "skipToContent": "İçeriğe geç",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "switchLanguage": "Dili değiştir",
+    "mainNav": "Ana gezinme"
+  },
+  "hero": {
+    "title": "Duşanbe'de profesyonel iç mekan temizliği ve çevre bakımı",
+    "subtitle": "Ofisler, klinikler, mağazalar, evler ve çevre alanlar. Sözleşmeyle düzenli hizmet, modern ekipman ve sorumlu çalışanlar.",
+    "ctaCall": "Ara: {phone}",
+    "whatsappGreeting": "Merhaba! Temizlik ve çevre bakımı hizmetleri hakkında bilgi almak istiyorum.",
+    "imageAlt": "Ofis koridorunda zemin temizleme makinesiyle çalışan temizlik şirketi personeli",
+    "microTrust": {
+      "contract": "Sözleşmeyle çalışıyoruz",
+      "scope": "İç mekanlar, çevre alan ve peyzaj",
+      "visit": "Yerinde keşif ve net teklif"
+    },
+    "starter": {
+      "objectType": "Mekan türü",
+      "area": "Alan, m²",
+      "submit": "Teklife geç"
+    }
+  },
+  "trust": {
+    "label": "Kısaca biz",
+    "launch": "şirketin kuruluş yılı",
+    "launchValue": "2026",
+    "city": "hizmet verdiğimiz şehir",
+    "cityValue": "Duşanbe",
+    "languages": "sitedeki dil sayısı",
+    "languagesValue": "11",
+    "clients": "ilk projeleri kabul ediyoruz",
+    "clientsValue": "Başvurular açık"
+  },
+  "actionBar": {
+    "label": "Hızlı işlemler",
+    "quote": "Teklif",
+    "whatsapp": "WhatsApp",
+    "call": "Ara"
+  },
+  "calculator": {
+    "objectTypes": {
+      "office": "Ofis",
+      "clinic": "Klinik",
+      "shop": "Mağaza",
+      "home": "Ev",
+      "territory": "Dış alan",
+      "other": "Diğer"
+    },
+    "title": "Maliyet hesaplama",
+    "subtitle": "Dört alanı doldurun; hesaplayıcı tahmini fiyatı hemen gösterir, talebi de tek dokunuşla WhatsApp veya Telegram'dan gönderirsiniz. Kesin fiyatı mekanı gördükten sonra bildiririz.",
+    "fields": {
+      "objectType": "Mekan türü",
+      "area": "Alan, m²",
+      "areaTerritory": "Dış alanın büyüklüğü, m²",
+      "frequency": "Sıklık",
+      "extras": "Ek hizmetler",
+      "name": "Adınız",
+      "nameOptional": "isteğe bağlı",
+      "comment": "Yorum",
+      "commentPlaceholder": "Adres, uygun zaman, mekanın özellikleri"
+    },
+    "frequencies": {
+      "once": "Tek seferlik",
+      "daily": "Her gün",
+      "severalPerWeek": "Haftada birkaç kez",
+      "weekly": "Haftada bir",
+      "monthly": "Ayda bir"
+    },
+    "extras": {
+      "windows": "Pencereler",
+      "renovation": "Tadilat sonrası temizlik",
+      "sanitary": "Sanitasyon işlemi",
+      "territory": "Çevre alan bakımı",
+      "landscaping": "Peyzaj",
+      "other": "Diğer"
+    },
+    "errors": {
+      "area": "En az 10 m² alan girin"
+    },
+    "preview": "Talep metni",
+    "sendWhatsapp": "WhatsApp'tan gönder",
+    "sendTelegram": "Telegram'dan gönder",
+    "copy": "Metni kopyala",
+    "copied": "Metin kopyalandı",
+    "noPrice": "Hesaplama tahminidir ve demo tarifelere göre yapılmıştır. Kesin fiyat mekanın durumuna ve programa bağlıdır; mekanı gördükten sonra bildiririz.",
+    "message": {
+      "greeting": "Merhaba! Temizlik hizmeti için fiyat teklifi almak istiyorum.",
+      "objectType": "Mekan türü",
+      "area": "Alan",
+      "areaUnit": "m²",
+      "frequency": "Sıklık",
+      "extras": "Ek hizmetler",
+      "name": "Ad",
+      "comment": "Yorum",
+      "language": "Dil",
+      "none": "—",
+      "estimate": "Hesaplayıcıya göre tahmini"
+    },
+    "estimate": {
+      "title": "Tahmini fiyat",
+      "demoBadge": "Demo tarifeler",
+      "perMonth": "aylık",
+      "oneOff": "tek temizlik için",
+      "perVisit": "Tek ziyaret için",
+      "visitsPerMonth": "Aylık ziyaret sayısı",
+      "extras": "Ek hizmetler (tek seferlik)",
+      "extrasUnpriced": "«Diğer» ayrıca fiyatlandırılır",
+      "volumeDiscount": "Hacim indirimi",
+      "minOrder": "Minimum sipariş",
+      "currency": "somoni",
+      "empty": "Alanı girin; hesaplama burada görünecek.",
+      "approx": "≈"
+    }
+  },
+  "services": {
+    "title": "Hizmetler",
+    "subtitle": "İki sorumluluk alanı: binanın içi ve çevresi. Her hizmeti ayrı ayrı sipariş edebilir veya tek sözleşmede birleştirebilirsiniz.",
+    "tabs": {
+      "indoor": "İç mekan temizliği",
+      "outdoor": "Çevre alan ve peyzaj"
+    },
+    "includesTitle": "Neleri kapsar",
+    "calculate": "Mekanım için hesapla",
+    "notFound": "İhtiyacınız olan hizmeti bulamadınız mı?",
+    "notFoundText": "Bize yazın; mekanınıza uygun bir çözüm belirleyelim.",
+    "notFoundCta": "WhatsApp'tan yaz",
+    "notFoundMessage": "Merhaba! Standart dışı bir temizlik ihtiyacım var, görüşmek istiyorum.",
+    "indoor": {
+      "items": {
+        "daily": {
+          "title": "Ofis ve mekanların günlük temizliği",
+          "desc": "Programa göre düzenli bakım temizliği: mesai başlamadan önce, akşam veya gün içinde.",
+          "includes": [
+            "Zeminler: kuru ve nemli temizlik",
+            "Çalışma yüzeyleri ve mobilyalar",
+            "Toz alma, aynalar, kapılar",
+            "Tuvaletler ve mutfak alanları",
+            "Çöplerin çıkarılması, sarf malzemeleri"
+          ]
+        },
+        "periodic": {
+          "title": "Periyodik ve genel temizlik",
+          "desc": "Haftada, ayda veya üç ayda bir derin temizlik — günlük temizliği tamamlar veya onun yerine geçer.",
+          "includes": [
+            "Profesyonel kimyasallarla zemin yıkama",
+            "Radyatörler, süpürgelikler, aydınlatmalar",
+            "Ulaşılması zor yerler ve üst yüzeyler",
+            "İstek üzerine döşemeli mobilya temizliği",
+            "Temas yüzeylerinin dezenfeksiyonu"
+          ]
+        },
+        "clinics": {
+          "title": "Klinikler ve sağlık kuruluşları",
+          "desc": "Kurumun yönetmeliğine uygun sanitasyon işlemli temizlik; alanlara göre ayrı ekipmanla.",
+          "includes": [
+            "Yüzeylerin sanitasyon işlemi",
+            "Kapı kollarının ve cihazların dezenfeksiyonu",
+            "Alanlara göre ayrı ekipman",
+            "Hasta kabul programına uygun çalışma",
+            "Yapılan işlerin kayıt defteri"
+          ]
+        },
+        "shops": {
+          "title": "Mağazalar ve ticari mekanlar",
+          "desc": "Yoğun geçişte temiz zeminler ve vitrinler — açılıştan önce ve gün boyunca.",
+          "includes": [
+            "Yoğun geçiş olan zeminler",
+            "Vitrinler, raflar, kasa alanı",
+            "Giriş bölümü ve cam kapılar",
+            "Depo ve yardımcı odalar",
+            "Çalışma saatlerinde nöbetçi temizlik"
+          ]
+        },
+        "windows": {
+          "title": "Pencereler, kapılar ve cam yüzeyler",
+          "desc": "Pencerelerin, vitrinlerin, bölmelerin ve kapıların içten ve dıştan, ulaşılabilir yükseklikte yıkanması.",
+          "includes": [
+            "Pencerelerin iki yüzü, çerçeveler ve denizlikler",
+            "Vitrinler ve cam bölmeler",
+            "Giriş kapıları ve ikinci kata kadar cephe camları",
+            "Bant, boya ve etiket izlerinin temizlenmesi"
+          ]
+        },
+        "renovation": {
+          "title": "Tadilat sonrası temizlik",
+          "desc": "Taşınmadan önce inşaat tozunun ve tadilat izlerinin temizlenmesi.",
+          "includes": [
+            "Tüm yüzeylerdeki inşaat tozu",
+            "Harç, boya ve derz dolgusu kalıntıları",
+            "Pencere ve kapıların yıkanması",
+            "Zeminlerin son nemli temizliği",
+            "Anlaşmaya göre küçük inşaat atıklarının taşınması"
+          ]
+        }
+      }
+    },
+    "outdoor": {
+      "items": {
+        "territory": {
+          "title": "Çevre alan temizliği",
+          "desc": "Avlular, otoparklar, yürüyüş yolları ve girişler — her gün tertemiz.",
+          "includes": [
+            "Süpürme ve çöp toplama",
+            "Yolların ve alanların yıkanması",
+            "Giriş bölümünün temizliği",
+            "Yaprakların ve mevsimlik kirlerin temizlenmesi"
+          ]
+        },
+        "order": {
+          "title": "Düzenin korunması",
+          "desc": "Alanın düzenli kontrolü; tespit edilen eksiklerin kayda alınıp giderilmesi.",
+          "includes": [
+            "Program ve kontrol listesine göre tur",
+            "Çöp kutularının boşaltılması",
+            "Otoparkta ve girişlerde düzen",
+            "Talep üzerine acil temizlik"
+          ]
+        },
+        "green": {
+          "title": "Yeşil alan bakımı",
+          "desc": "Çim alanlar, çalılar ve çiçek tarhları tüm sezon boyunca bakımlı.",
+          "includes": [
+            "Programa göre sulama",
+            "Çim biçme",
+            "Çalı budama",
+            "Çiçek tarhlarında ot ayıklama ve toprak havalandırma"
+          ]
+        },
+        "trees": {
+          "title": "Ağaç dikimi",
+          "desc": "Duşanbe iklimine uygun türlerin seçimi, dikim ve ilk sezon bakımı.",
+          "includes": [
+            "Fidan seçimi",
+            "Dikim çukurlarının ve toprağın hazırlanması",
+            "Dikim ve bağlama",
+            "Tutunma döneminde sulama ve bakım"
+          ]
+        },
+        "flowers": {
+          "title": "Çiçek dikimi ve çiçek tarhları",
+          "desc": "Girişte ve alanda çiçek tarhlarının ve saksıların mevsimlik düzenlenmesi.",
+          "includes": [
+            "Proje ve bitki seçimi",
+            "Toprak hazırlığı",
+            "Tek yıllık ve çok yıllık bitkilerin dikimi",
+            "Mevsimlik değişim ve bakım"
+          ]
+        }
+      }
+    }
+  },
+  "audience": {
+    "title": "Kimlere hizmet veriyoruz",
+    "subtitle": "Farklı mekanlar, farklı kurallar. Türünüzü seçin, hesaplayıcı bunu talebe eklesin.",
+    "items": {
+      "office": {
+        "title": "Ofisler",
+        "scope": "Günlük temizlik, pencereler, tuvaletler, mutfaklar",
+        "imageAlt": "Açık planlı temiz bir ofis"
+      },
+      "clinic": {
+        "title": "Klinikler",
+        "scope": "Yönetmeliğe uygun sanitasyon işlemi",
+        "imageAlt": "Sağlık kliniği koridoru"
+      },
+      "shop": {
+        "title": "Mağazalar",
+        "scope": "Zeminler, vitrinler, giriş bölümü",
+        "imageAlt": "Mağaza satış salonu"
+      },
+      "home": {
+        "title": "Evler",
+        "scope": "Genel ve düzenli temizlik",
+        "imageAlt": "Müstakil evin oturma odası"
+      },
+      "territory": {
+        "title": "Dış alanlar",
+        "scope": "Avlu, otopark, çim alanlar, çiçek tarhları",
+        "imageAlt": "Çim alanlı bakımlı bir avlu"
+      }
+    },
+    "cta": "Hesapla",
+    "other": {
+      "title": "Başka bir mekan",
+      "scope": "Depo, eğitim kurumu, banka, restoran — ihtiyacınızı talepte anlatın"
+    }
+  },
+  "whyUs": {
+    "title": "Neden bize güveniliyor",
+    "subtitle": "Vaat değil, mekanizma: temizliğin öngörülebilir olması için tam olarak ne yapıyoruz.",
+    "items": {
+      "equipment": {
+        "title": "Modern ekipman",
+        "desc": "Zemin temizleme makineleri, endüstriyel elektrikli süpürgeler, pencere ve dış alan ekipmanları — her mekan türü için ayrı bir set. [ekipman parkı netleştirilecek]"
+      },
+      "chemistry": {
+        "title": "Profesyonel kimyasallar",
+        "desc": "Ürünler yüzey türüne göre seçilir ve talimata göre dozlanır: insanlar, mobilyalar ve kaplamalar için güvenli."
+      },
+      "responsibility": {
+        "title": "Sorumlu yaklaşım",
+        "desc": "Sabit ekip, üniforma, mekana özel eğitim ve sözleşme kapsamında eşyalara karşı sorumluluk."
+      },
+      "quality": {
+        "title": "Kalite kontrol",
+        "desc": "Her mekan için kontrol listesi, sorumlu yönetici ve ziyaret sonrası geri bildirim. Eksikleri tartışmıyor, gideriyoruz."
+      },
+      "regular": {
+        "title": "Düzenli hizmet",
+        "desc": "Çalışma düzeninize uygun program — açılıştan önce, kapanıştan sonra veya gün içinde. Çalışan değişse de temizlik aksamaz."
+      },
+      "oneContractor": {
+        "title": "Tek yüklenici",
+        "desc": "İç mekanlar, çevre alan ve peyzaj — tek sözleşme, tek fatura, tek sorumlu."
+      }
+    }
+  },
+  "process": {
+    "title": "Nasıl çalışıyoruz",
+    "subtitle": "Talepten düzenli temizliğe dört adım. Her adım net bir sonuçla biter.",
+    "cta": "Talep bırak",
+    "steps": {
+      "request": {
+        "title": "Talep",
+        "desc": "Telefonla, WhatsApp veya Telegram üzerinden ya da sitedeki hesaplama ile."
+      },
+      "visit": {
+        "title": "Keşif ve hesaplama",
+        "desc": "Mekanı inceliyor, ölçüm alıyor, iş kapsamını ve programı öneriyoruz."
+      },
+      "schedule": {
+        "title": "Programın onaylanması",
+        "desc": "Sözleşme, iş listesi, her iki taraftan sorumlu kişiler."
+      },
+      "work": {
+        "title": "Temizlik ve kalite kontrol",
+        "desc": "Kontrol listesine göre çalışıyor, rapor veriyor, geri bildirimlerinize göre düzeltiyoruz."
+      }
+    }
+  },
+  "beforeAfter": {
+    "title": "Önce ve sonra",
+    "subtitle": "Karşılaştırmak için kaydırıcıyı çekin. Şimdilik burada görseller var — yerlerine kendi projelerimizin fotoğrafları gelecek.",
+    "before": "Önce",
+    "after": "Sonra",
+    "sliderLabel": "Önce ve sonra karşılaştırması: ayırıcının konumu",
+    "placeholderCaption": "Görseller: «Oda» çifti yapay zekayla oluşturulmuştur, diğerleri stok fotoğraflardır (Unsplash). Safo Cleaning projelerinin gerçek fotoğraflarıyla değiştirilecektir.",
+    "pairs": {
+      "room": {
+        "label": "Oda",
+        "altBefore": "Aynı oda temizlikten önce: dağınıklık, toz ve çöp",
+        "altAfter": "Aynı oda temizlikten sonra: temiz ve derli toplu"
+      },
+      "lawn": {
+        "label": "Dış alan",
+        "altBefore": "Bakımdan önce ihmal edilmiş, otlarla kaplı avlu",
+        "altAfter": "Bakımlı, biçilmiş çim alan; çalışanlar iş başında"
+      },
+      "renovation": {
+        "label": "Tadilat sonrası",
+        "altBefore": "Temizlikten önce inşaat atıkları ve toz dolu mekan",
+        "altAfter": "Temizlikten sonra geniş mekanda temiz, parlak zemin"
+      }
+    }
+  },
+  "reviews": {
+    "title": "Yorumlar",
+    "subtitle": "Burada, kurum ve görev bilgisiyle birlikte müşteri yorumları yer alacak. Şimdilik örnek metinler gösteriliyor.",
+    "placeholderBadge": "[REVIEW PLACEHOLDER]",
+    "prev": "Önceki yorum",
+    "next": "Sonraki yorum",
+    "items": {
+      "r1": {
+        "quote": "Yorum metni müşteriyle mutabık kalındıktan sonra eklenecek. Bu örnek metin uzunluğu ve biçimi gösterir: düzenlilik, kalite ve iletişim hakkında iki-üç cümle.",
+        "author": "[Görev]",
+        "context": "[Mekan türü], Duşanbe"
+      },
+      "r2": {
+        "quote": "Yorum metni müşteriyle mutabık kalındıktan sonra eklenecek. Bir klinik veya sağlık merkezinin hizmet yorumu için örnek metin.",
+        "author": "[Görev]",
+        "context": "[Klinik], Duşanbe"
+      },
+      "r3": {
+        "quote": "Yorum metni müşteriyle mutabık kalındıktan sonra eklenecek. Çevre alan bakımı ve peyzaj yorumu için örnek metin.",
+        "author": "[Görev]",
+        "context": "[Konut sitesi], Duşanbe"
+      },
+      "r4": {
+        "quote": "Yorum metni müşteriyle mutabık kalındıktan sonra eklenecek. Bir ticari mekan yorumu için örnek metin.",
+        "author": "[Görev]",
+        "context": "[Mağaza], Duşanbe"
+      }
+    }
+  },
+  "faq": {
+    "title": "Sık sorulan sorular",
+    "subtitle": "En sık sorulanlara kısa yanıtlar. Sorunuz listede yoksa bize yazın.",
+    "items": {
+      "price": {
+        "q": "Temizlik ne kadar tutar?",
+        "a": "Maliyet; alana, mekan türüne, sıklığa ve iş kapsamına bağlıdır. «Başlangıç fiyatı» yayımlamıyoruz, çünkü alanı aynı olan iki temizliğin iş hacmi kat kat farklı olabilir. Sitedeki hesaplamayı doldurun veya bize yazın — ayrıntıları netleştirdikten sonra somut bir tutarla dönelim."
+      },
+      "calculation": {
+        "q": "Maliyet nasıl hesaplanır?",
+        "a": "Temel parametreler alan ve sıklıktır. Bunlara iş kapsamı eklenir: pencereler, sanitasyon işlemi, çevre alan, peyzaj. Düzenli hizmette sözleşmeyle aylık bir tutar öneriyoruz. İnceleme ve ölçüm için mekana keşif: [koşullar netleştirilecek]."
+      },
+      "regular": {
+        "q": "Düzenli temizlik sipariş edebilir miyim?",
+        "a": "Evet, çalışmamızın ana biçimi budur. Her gün, haftada birkaç kez, haftada bir veya ayda bir — programı mekanın çalışma düzenine göre belirler ve sözleşmeye yazarız."
+      },
+      "business": {
+        "q": "Ofisler ve kurumlarla çalışıyor musunuz?",
+        "a": "Evet, tüzel kişilerle sözleşmeyle çalışıyoruz. Muhasebe belgeleri: [netleştirilecek: fatura, tutanak, ödeme şekli]. Mekana sorumlu bir yönetici atanır."
+      },
+      "renovation": {
+        "q": "Tadilat sonrası temizlik sipariş edebilir miyim?",
+        "a": "Evet. Tüm yüzeylerdeki inşaat tozunu, harç ve boya kalıntılarını temizler, pencere ve kapıları yıkar, zeminlerin son nemli temizliğini yaparız. Küçük inşaat atıklarının taşınması ayrıca görüşülür."
+      },
+      "territory": {
+        "q": "Çevre alana sürekli hizmet verilebilir mi?",
+        "a": "Evet. Çevre alan temizliği, düzenin korunması, çim ve çiçek tarhı bakımı, mevsimlik dikimler — hepsi iç mekan temizliğiyle birlikte tek sözleşmeye eklenebilir."
+      }
+    }
+  },
+  "ctaBand": {
+    "quote": {
+      "title": "Hesaplamaya hazır mısınız?",
+      "text": "Dört alanı doldurun — talep bir dakika içinde WhatsApp veya Telegram'a ulaşsın."
+    },
+    "questions": {
+      "title": "Sorularınız mı var?",
+      "text": "Arayın veya yazın — yanıtlayalım ve mekanınıza hangi hizmet biçiminin uygun olacağını önerelim."
+    }
+  },
+  "contacts": {
+    "title": "İletişim",
+    "subtitle": "Size uygun iletişim yolunu seçin. Çalışma saatlerinde yanıt veriyoruz, siteden gelen talepleri hemen görüyoruz.",
+    "phone": "Telefon",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "instagram": "Instagram",
+    "address": "Adres",
+    "hours": "Çalışma saatleri",
+    "addressValue": "Rudaki Caddesi 45, Duşanbe",
+    "hoursValue": "Pzt–Cmt 08:00–20:00, Paz talep üzerine",
+    "showMap": "Haritayı göster",
+    "mapPlaceholder": "[MAP EMBED] — adres belirtildikten sonra harita görünecek",
+    "mapTitle": "Harita: bizi nasıl bulursunuz"
+  },
+  "footer": {
+    "owner": "Yönetici",
+    "navTitle": "Bölümler",
+    "contactsTitle": "İletişim",
+    "langTitle": "Dil",
+    "rights": "Tüm hakları saklıdır.",
+    "placeholderNotice": "Köşeli parantez içindeki bilgiler, gerçek bilgiler sağlanana kadar yer tutucudur."
+  },
+  "notFound": {
+    "title": "Böyle bir sayfa yok",
+    "text": "Bağlantı güncelliğini yitirmiş olabilir. Ana sayfaya dönün — hizmetler, hesaplama ve iletişim bilgileri orada.",
+    "cta": "Ana sayfaya"
+  }
+}

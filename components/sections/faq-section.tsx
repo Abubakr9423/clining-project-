@@ -13,7 +13,7 @@ export function FaqSection() {
       <Accordion type="single" collapsible className="rounded-md border border-line bg-white px-5">
         {faqKeys.map((key) => (
           <AccordionItem key={key} value={key} className="border-line last:border-b-0">
-            <AccordionTrigger className="py-5 text-left text-[17px] font-semibold text-forest hover:no-underline [&>svg]:text-teal">
+            <AccordionTrigger className="py-5 text-start text-[17px] font-semibold text-forest hover:no-underline [&>svg]:text-teal">
               {t(`items.${key}.q`)}
             </AccordionTrigger>
             <AccordionContent className="pb-5 text-[15px] leading-relaxed text-ink/85">{t(`items.${key}.a`)}</AccordionContent>

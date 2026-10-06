@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { localePaths, routing, type AppLocale } from "@/i18n/routing";
+import { localePaths, ogLocales, routing, type AppLocale } from "@/i18n/routing";
 import { siteConfig } from "./site-config";
 
 /** Public path prefix for a locale (e.g. tg → /tj). */
@@ -11,7 +11,7 @@ export function absoluteUrl(path: string): string {
   return `${siteConfig.url}${path}`;
 }
 
-/** hreflang map: tg + ru + x-default → Tajik. */
+/** hreflang map: every locale + x-default → Tajik. */
 export function languageAlternates(): Record<string, string> {
   const map: Record<string, string> = {};
   for (const l of routing.locales) map[l] = absoluteUrl(localePath(l));
@@ -28,8 +28,8 @@ export function buildMetadata(locale: AppLocale, t: { title: string; description
     alternates: { canonical: absoluteUrl(path), languages: languageAlternates() },
     openGraph: {
       type: "website",
-      locale: locale === "tg" ? "tg_TJ" : "ru_RU",
-      alternateLocale: locale === "tg" ? ["ru_RU"] : ["tg_TJ"],
+      locale: ogLocales[locale],
+      alternateLocale: routing.locales.filter((l) => l !== locale).map((l) => ogLocales[l]),
       url: absoluteUrl(path),
       siteName: siteConfig.name,
       title: t.ogTitle,
@@ -57,12 +57,12 @@ export function buildJsonLd(locale: AppLocale, opts: { description: string; faq:
     url: absoluteUrl(path),
     description: opts.description,
     areaServed: { "@type": "City", name: "Dushanbe" },
-    inLanguage: locale === "tg" ? "tg" : "ru",
+    inLanguage: locale,
     knowsAbout: opts.serviceNames,
   };
   if (!isPh(siteConfig.phone)) business.telephone = siteConfig.phone;
-  if (!isPh(siteConfig.address)) business.address = { "@type": "PostalAddress", streetAddress: siteConfig.address, addressLocality: "Dushanbe", addressCountry: "TJ" };
-  if (!isPh(siteConfig.instagram)) business.sameAs = [`https://instagram.com/${siteConfig.instagram}`];
+  if (!siteConfig.demoContacts && !isPh(siteConfig.address)) business.address = { "@type": "PostalAddress", streetAddress: siteConfig.address, addressLocality: "Dushanbe", addressCountry: "TJ" };
+  if (!siteConfig.demoContacts && !isPh(siteConfig.instagram)) business.sameAs = [`https://instagram.com/${siteConfig.instagram}`];
 
   const faq = {
     "@type": "FAQPage",

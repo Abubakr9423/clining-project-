@@ -1,0 +1,487 @@
+{
+  "meta": {
+    "title": "Dushanbeda xonalarni professional tozalash va hududni parvarishlash — Safo Cleaning",
+    "description": "Dushanbeda ofislar, klinikalar, do'konlar va uylarni tozalash, atrofdagi hududni tozalash va ko'kalamzorlashtirish. Shartnoma asosida muntazam xizmat, zamonaviy uskunalar, sifat nazorati.",
+    "ogTitle": "Dushanbeda xonalarni tozalash va hududni parvarishlash",
+    "ogDescription": "Ofislar, klinikalar, do'konlar, uylar va hududlar. Shartnoma asosida muntazam xizmat."
+  },
+  "common": {
+    "brand": "Safo Cleaning",
+    "call": "Qo'ng'iroq qilish",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "getQuote": "Hisob-kitob olish",
+    "placeholderNote": "Ma'lumotlar yangilanadi"
+  },
+  "nav": {
+    "services": "Xizmatlar",
+    "whyUs": "Nega biz",
+    "process": "Qanday ishlaymiz",
+    "faq": "Savollar",
+    "contacts": "Aloqa"
+  },
+  "a11y": {
+    "skipToContent": "Mazmunga o'tish",
+    "openMenu": "Menyuni ochish",
+    "closeMenu": "Menyuni yopish",
+    "switchLanguage": "Tilni almashtirish",
+    "mainNav": "Asosiy navigatsiya"
+  },
+  "hero": {
+    "title": "Dushanbeda xonalarni professional tozalash va hududni parvarishlash",
+    "subtitle": "Ofislar, klinikalar, do'konlar, uylar va atrofdagi hududlar. Shartnoma asosida muntazam xizmat, zamonaviy uskunalar va mas'uliyatli xodimlar.",
+    "ctaCall": "Qo'ng'iroq qilish {phone}",
+    "whatsappGreeting": "Assalomu alaykum! Tozalash va hududga xizmat ko'rsatish xizmatlari haqida bilmoqchiman.",
+    "imageAlt": "Tozalash kompaniyasi xodimi ofis yo'lagida pol yuvish mashinasi bilan",
+    "microTrust": {
+      "contract": "Shartnoma asosida ishlaymiz",
+      "scope": "Xonalar, hudud va ko'kalamzorlashtirish",
+      "visit": "Obyektga chiqish va aniq hisob-kitob"
+    },
+    "starter": {
+      "objectType": "Obyekt turi",
+      "area": "Maydon, m²",
+      "submit": "Hisob-kitobga"
+    }
+  },
+  "trust": {
+    "label": "Biz haqimizda qisqacha",
+    "launch": "kompaniya tashkil etilgan yil",
+    "launchValue": "2026",
+    "city": "biz ishlaydigan shahar",
+    "cityValue": "Dushanbe",
+    "languages": "saytdagi tillar",
+    "languagesValue": "11",
+    "clients": "birinchi obyektlarni qabul qilmoqdamiz",
+    "clientsValue": "Qabul ochiq"
+  },
+  "actionBar": {
+    "label": "Tezkor amallar",
+    "quote": "Hisob-kitob",
+    "whatsapp": "WhatsApp",
+    "call": "Qo'ng'iroq qilish"
+  },
+  "calculator": {
+    "objectTypes": {
+      "office": "Ofis",
+      "clinic": "Klinika",
+      "shop": "Do'kon",
+      "home": "Uy",
+      "territory": "Hudud",
+      "other": "Boshqa"
+    },
+    "title": "Narxni hisoblash",
+    "subtitle": "To'rtta maydonni to'ldiring — kalkulyator darhol taxminiy narxni ko'rsatadi, arizani esa WhatsApp yoki Telegram orqali bir bosishda yuborasiz. Aniq narxni obyektni ko'zdan kechirgach aytamiz.",
+    "fields": {
+      "objectType": "Obyekt turi",
+      "area": "Maydon, m²",
+      "areaTerritory": "Hudud maydoni, m²",
+      "frequency": "Chastota",
+      "extras": "Qo'shimcha",
+      "name": "Ismingiz",
+      "nameOptional": "majburiy emas",
+      "comment": "Izoh",
+      "commentPlaceholder": "Manzil, qulay vaqt, obyektning xususiyatlari"
+    },
+    "frequencies": {
+      "once": "Bir martalik",
+      "daily": "Har kuni",
+      "severalPerWeek": "Haftada bir necha marta",
+      "weekly": "Haftada bir marta",
+      "monthly": "Oyda bir marta"
+    },
+    "extras": {
+      "windows": "Oynalar",
+      "renovation": "Ta'mirdan keyingi tozalash",
+      "sanitary": "Sanitariya ishlovi",
+      "territory": "Hududga xizmat ko'rsatish",
+      "landscaping": "Ko'kalamzorlashtirish",
+      "other": "Boshqa"
+    },
+    "errors": {
+      "area": "Maydonni 10 m² dan boshlab kiriting"
+    },
+    "preview": "So'rov matni",
+    "sendWhatsapp": "WhatsApp orqali yuborish",
+    "sendTelegram": "Telegram orqali yuborish",
+    "copy": "Matnni nusxalash",
+    "copied": "Matn nusxalandi",
+    "noPrice": "Hisob-kitob taxminiy va namunaviy tariflar bo'yicha qilingan. Aniq narx obyekt holati va jadvalga bog'liq — ko'zdan kechirgach aytamiz.",
+    "message": {
+      "greeting": "Assalomu alaykum! Tozalash narxini hisoblab olmoqchiman.",
+      "objectType": "Obyekt turi",
+      "area": "Maydon",
+      "areaUnit": "m²",
+      "frequency": "Chastota",
+      "extras": "Qo'shimcha xizmatlar",
+      "name": "Ism",
+      "comment": "Izoh",
+      "language": "Til",
+      "none": "—",
+      "estimate": "Kalkulyator bo'yicha taxminan"
+    },
+    "estimate": {
+      "title": "Taxminiy narx",
+      "demoBadge": "Demo tariflar",
+      "perMonth": "oyiga",
+      "oneOff": "bir tozalash uchun",
+      "perVisit": "Bir chiqish uchun",
+      "visitsPerMonth": "Oyiga chiqishlar",
+      "extras": "Qo'shimcha xizmatlar (bir martalik)",
+      "extrasUnpriced": "«Boshqa»ni alohida baholaymiz",
+      "volumeDiscount": "Hajm uchun chegirma",
+      "minOrder": "Minimal buyurtma",
+      "currency": "somoni",
+      "empty": "Maydonni kiriting — hisob-kitob shu yerda paydo bo'ladi.",
+      "approx": "≈"
+    }
+  },
+  "services": {
+    "title": "Xizmatlar",
+    "subtitle": "Ikki mas'uliyat hududi — bino ichi va uning atrofi. Har bir xizmatni alohida buyurtma qilish yoki bitta shartnomada birlashtirish mumkin.",
+    "tabs": {
+      "indoor": "Ichki tozalash",
+      "outdoor": "Hudud va ko'kalamzorlashtirish"
+    },
+    "includesTitle": "Nimalarni o'z ichiga oladi",
+    "calculate": "Obyektim uchun hisoblash",
+    "notFound": "Kerakli xizmatni topmadingizmi?",
+    "notFoundText": "Bizga yozing — obyektingizga mos yechim tanlaymiz.",
+    "notFoundCta": "WhatsApp'da yozish",
+    "notFoundMessage": "Assalomu alaykum! Menda tozalash bo'yicha nostandart vazifa bor, muhokama qilmoqchiman.",
+    "indoor": {
+      "items": {
+        "daily": {
+          "title": "Ofis va xonalarni kundalik tozalash",
+          "desc": "Jadval bo'yicha qo'llab-quvvatlovchi tozalash: ish kuni boshlanishidan oldin, kechqurun yoki kun davomida.",
+          "includes": [
+            "Pollar: quruq va nam tozalash",
+            "Ish yuzalari va mebel",
+            "Changni artish, oynalar, eshiklar",
+            "Hojatxonalar va oshxona zonalari",
+            "Chiqindilarni chiqarish, sarf materiallari"
+          ]
+        },
+        "periodic": {
+          "title": "Davriy va umumiy tozalash",
+          "desc": "Haftada, oyda yoki chorakda bir marta chuqur tozalash — kundalik tozalikni to'ldiradi yoki uning o'rnini bosadi.",
+          "includes": [
+            "Pollarni professional kimyoviy vositalar bilan yuvish",
+            "Radiatorlar, plintuslar, chiroqlar",
+            "Yetib bo'lmaydigan joylar va yuqori yuzalar",
+            "So'rov bo'yicha yumshoq mebelni tozalash",
+            "Tegib turadigan yuzalarni dezinfeksiya qilish"
+          ]
+        },
+        "clinics": {
+          "title": "Klinikalar va tibbiy muassasalar",
+          "desc": "Muassasa reglamenti bo'yicha sanitariya ishlovi bilan tozalash va zonalar bo'yicha alohida inventar.",
+          "includes": [
+            "Yuzalarga sanitariya ishlovi",
+            "Eshik tutqichlari va jihozlarni dezinfeksiya qilish",
+            "Zonalar bo'yicha alohida inventar",
+            "Bemorlarni qabul qilish jadvaliga muvofiq ishlash",
+            "Bajarilgan ishlar jurnali"
+          ]
+        },
+        "shops": {
+          "title": "Do'konlar va savdo xonalari",
+          "desc": "Odam ko'p qatnaydigan joyda toza pollar va vitrinalar — ochilishdan oldin va kun davomida.",
+          "includes": [
+            "Odam ko'p qatnaydigan pollar",
+            "Vitrinalar, javonlar, kassa zonasi",
+            "Kirish guruhi va shisha eshiklar",
+            "Ombor va yordamchi xonalar",
+            "Ish soatlarida navbatchi tozalash"
+          ]
+        },
+        "windows": {
+          "title": "Oynalar, eshiklar va shisha yuzalar",
+          "desc": "Oynalar, vitrinalar, to'siqlar va eshiklarni ichkaridan va tashqaridan yetib boriladigan balandlikda yuvish.",
+          "includes": [
+            "Oynalar ikki tomondan, romlar va deraza tokchalari",
+            "Vitrinalar va shisha to'siqlar",
+            "Kirish eshiklari va ikkinchi qavatgacha fasad oynalari",
+            "Skotch, bo'yoq, yelim izlarini tozalash"
+          ]
+        },
+        "renovation": {
+          "title": "Ta'mirdan keyingi tozalash",
+          "desc": "Ko'chib kirishdan oldin qurilish changi va pardozlash ishlari izlarini tozalash.",
+          "includes": [
+            "Barcha yuzalardagi qurilish changi",
+            "Qorishma, bo'yoq va fuga qoldiqlari",
+            "Oyna va eshiklarni yuvish",
+            "Pollarni yakuniy nam tozalash",
+            "Kelishuv bo'yicha mayda qurilish chiqindilarini olib ketish"
+          ]
+        }
+      }
+    },
+    "outdoor": {
+      "items": {
+        "territory": {
+          "title": "Atrofdagi hududni tozalash",
+          "desc": "Hovlilar, to'xtash joylari, yo'laklar va kirish guruhlari — har kuni toza.",
+          "includes": [
+            "Supurish va chiqindilarni yig'ish",
+            "Yo'laklar va maydonchalarni yuvish",
+            "Kirish guruhini tozalash",
+            "Barglar va mavsumiy ifloslanishlarni tozalash"
+          ]
+        },
+        "order": {
+          "title": "Tartibni saqlash",
+          "desc": "Hududni muntazam aylanib chiqish, kamchiliklarni qayd etish va bartaraf qilish.",
+          "includes": [
+            "Jadval va chek-list bo'yicha aylanib chiqish",
+            "Axlat qutilarini bo'shatish",
+            "To'xtash joyi va kirish joylarida tartib",
+            "So'rov bo'yicha tezkor tozalash"
+          ]
+        },
+        "green": {
+          "title": "Yashil hududlarni parvarishlash",
+          "desc": "O'tloqlar, butalar va gulzorlar butun mavsum davomida ozoda holatda.",
+          "includes": [
+            "Jadval bo'yicha sug'orish",
+            "O'tloqni qirqish",
+            "Butalarni butash",
+            "Gulzorlarni begona o'tlardan tozalash va yumshatish"
+          ]
+        },
+        "trees": {
+          "title": "Daraxt ekish",
+          "desc": "Dushanbe iqlimiga mos navlarni tanlash, ekish va birinchi mavsumda parvarish.",
+          "includes": [
+            "Ko'chatlarni tanlash",
+            "Ekish chuqurlari va tuproqni tayyorlash",
+            "Ekish va bog'lab qo'yish",
+            "Ildiz otish davrida sug'orish va parvarish"
+          ]
+        },
+        "flowers": {
+          "title": "Gul ekish va gulzorlar",
+          "desc": "Kirish joyida va hududda gulzorlar va gul tuvaklarini mavsumiy bezash.",
+          "includes": [
+            "Loyiha va o'simliklarni tanlash",
+            "Tuproqni tayyorlash",
+            "Bir yillik va ko'p yillik gullarni ekish",
+            "Mavsumiy almashtirish va parvarish"
+          ]
+        }
+      }
+    }
+  },
+  "audience": {
+    "title": "Kimlarga xizmat ko'rsatamiz",
+    "subtitle": "Turli obyektlar — turli reglament. O'z turingizni tanlang, kalkulyator uni so'rovga qo'yib beradi.",
+    "items": {
+      "office": {
+        "title": "Ofislar",
+        "scope": "Kundalik tozalash, oynalar, hojatxonalar, oshxonalar",
+        "imageAlt": "Ochiq rejali toza ofis"
+      },
+      "clinic": {
+        "title": "Klinikalar",
+        "scope": "Reglament bo'yicha sanitariya ishlovi",
+        "imageAlt": "Tibbiyot klinikasi yo'lagi"
+      },
+      "shop": {
+        "title": "Do'konlar",
+        "scope": "Pollar, vitrinalar, kirish guruhi",
+        "imageAlt": "Do'kon savdo zali"
+      },
+      "home": {
+        "title": "Uylar",
+        "scope": "Umumiy va muntazam tozalash",
+        "imageAlt": "Shaxsiy uyning mehmonxonasi"
+      },
+      "territory": {
+        "title": "Hududlar",
+        "scope": "Hovli, to'xtash joyi, o'tloqlar, gulzorlar",
+        "imageAlt": "O'tloqli obod hovli"
+      }
+    },
+    "cta": "Hisoblash",
+    "other": {
+      "title": "Boshqa obyekt",
+      "scope": "Ombor, o'quv muassasasi, bank, restoran — vazifani so'rovda tavsiflang"
+    }
+  },
+  "whyUs": {
+    "title": "Nega bizga ishonishadi",
+    "subtitle": "Va'dalar emas, mexanizmlar: tozalash oldindan bashorat qilinadigan bo'lishi uchun aynan nima qilamiz.",
+    "items": {
+      "equipment": {
+        "title": "Zamonaviy uskunalar",
+        "desc": "Pol yuvish mashinalari, sanoat changyutgichlari, oyna va hudud uchun jihozlar — har bir obyekt turi uchun alohida to'plam. [texnika parkini aniqlashtirish]"
+      },
+      "chemistry": {
+        "title": "Professional kimyoviy vositalar",
+        "desc": "Vositalar yuza turiga qarab tanlanadi va yo'riqnoma bo'yicha dozalanadi: odamlar, mebel va qoplamalar uchun xavfsiz."
+      },
+      "responsibility": {
+        "title": "Mas'uliyatli yondashuv",
+        "desc": "Biriktirilgan brigada, forma, obyekt bo'yicha yo'riqnoma va shartnoma bo'yicha mol-mulk uchun javobgarlik."
+      },
+      "quality": {
+        "title": "Sifat nazorati",
+        "desc": "Har bir obyekt uchun chek-list, mas'ul menejer va tashrifdan keyin fikr-mulohaza. Kamchiliklarni muhokama qilmaymiz, bartaraf etamiz."
+      },
+      "regular": {
+        "title": "Muntazam xizmat",
+        "desc": "Ish tartibingizga mos jadval — ochilishdan oldin, yopilgandan keyin yoki kun davomida. Xodim almashtirilganda tozalash uzilmaydi."
+      },
+      "oneContractor": {
+        "title": "Bitta pudratchi",
+        "desc": "Xonalar, atrofdagi hudud va ko'kalamzorlashtirish — bitta shartnoma, bitta hisob-faktura, bitta mas'ul."
+      }
+    }
+  },
+  "process": {
+    "title": "Qanday ishlaymiz",
+    "subtitle": "So'rovdan muntazam tozalashgacha to'rt qadam. Har bir qadam tushunarli natija bilan yakunlanadi.",
+    "cta": "So'rov qoldirish",
+    "steps": {
+      "request": {
+        "title": "So'rov",
+        "desc": "Telefon, WhatsApp yoki Telegram orqali, yoki saytdagi hisob-kitob orqali."
+      },
+      "visit": {
+        "title": "Chiqish va hisob-kitob",
+        "desc": "Obyektni ko'zdan kechiramiz, o'lchovlar olamiz, ishlar tarkibi va jadvalni taklif qilamiz."
+      },
+      "schedule": {
+        "title": "Jadvalni kelishish",
+        "desc": "Shartnoma, ishlar ro'yxati, ikkala tomondan mas'ul shaxslar."
+      },
+      "work": {
+        "title": "Tozalash va sifat nazorati",
+        "desc": "Chek-list bo'yicha ishlaymiz, hisobot beramiz, sizning izohlaringiz bo'yicha tuzatamiz."
+      }
+    }
+  },
+  "beforeAfter": {
+    "title": "Oldin va keyin",
+    "subtitle": "Solishtirish uchun slayderni torting. Hozircha bu yerda illyustratsiyalar — ular bizning obyektlarimiz suratlari bilan almashtiriladi.",
+    "before": "Oldin",
+    "after": "Keyin",
+    "sliderLabel": "Oldin va keyin taqqoslash: ajratgich holati",
+    "placeholderCaption": "Illyustratsiyalar: «Xona» juftligi sun'iy intellekt yordamida yaratilgan, qolganlari — stok suratlar (Unsplash). Safo Cleaning obyektlarining haqiqiy suratlari bilan almashtiriladi.",
+    "pairs": {
+      "room": {
+        "label": "Xona",
+        "altBefore": "Xuddi shu xona tozalashdan oldin: tartibsizlik, chang va chiqindi",
+        "altAfter": "Xuddi shu xona tozalashdan keyin: toza va saranjom"
+      },
+      "lawn": {
+        "label": "Hudud",
+        "altBefore": "Parvarishdan oldin qarovsiz, o'sib ketgan hovli",
+        "altAfter": "Parvarishlangan, qirqilgan o'tloq, xodimlar ish ustida"
+      },
+      "renovation": {
+        "label": "Ta'mirdan keyin",
+        "altBefore": "Tozalashdan oldin qurilish chiqindilari va changli xona",
+        "altAfter": "Tozalashdan keyin keng xonada toza yaltiroq pol"
+      }
+    }
+  },
+  "reviews": {
+    "title": "Sharhlar",
+    "subtitle": "Bu yerda mijozlarning tashkilot va lavozim ko'rsatilgan sharhlari bo'ladi. Hozircha vaqtinchalik matnlar ko'rsatilgan.",
+    "placeholderBadge": "[REVIEW PLACEHOLDER]",
+    "prev": "Oldingi sharh",
+    "next": "Keyingi sharh",
+    "items": {
+      "r1": {
+        "quote": "Sharh matni mijoz bilan kelishilgandan so'ng paydo bo'ladi. Vaqtinchalik matn uzunlik va formatni ko'rsatadi: muntazamlik, sifat va muloqot haqida ikki-uch gap.",
+        "author": "[Lavozim]",
+        "context": "[Obyekt turi], Dushanbe"
+      },
+      "r2": {
+        "quote": "Sharh matni mijoz bilan kelishilgandan so'ng paydo bo'ladi. Klinika yoki tibbiyot markaziga xizmat ko'rsatish haqidagi sharh uchun vaqtinchalik matn.",
+        "author": "[Lavozim]",
+        "context": "[Klinika], Dushanbe"
+      },
+      "r3": {
+        "quote": "Sharh matni mijoz bilan kelishilgandan so'ng paydo bo'ladi. Hududni parvarishlash va ko'kalamzorlashtirish haqidagi sharh uchun vaqtinchalik matn.",
+        "author": "[Lavozim]",
+        "context": "[Turar-joy majmuasi], Dushanbe"
+      },
+      "r4": {
+        "quote": "Sharh matni mijoz bilan kelishilgandan so'ng paydo bo'ladi. Savdo xonasi haqidagi sharh uchun vaqtinchalik matn.",
+        "author": "[Lavozim]",
+        "context": "[Do'kon], Dushanbe"
+      }
+    }
+  },
+  "faq": {
+    "title": "Tez-tez beriladigan savollar",
+    "subtitle": "Eng ko'p so'raladigan narsalar haqida qisqacha. Savolingiz ro'yxatda bo'lmasa — bizga yozing.",
+    "items": {
+      "price": {
+        "q": "Tozalash qancha turadi?",
+        "a": "Narx maydon, obyekt turi, chastota va ishlar ro'yxatiga bog'liq. Biz «dan» narxlarini e'lon qilmaymiz, chunki maydoni bir xil ikkita tozalash hajmi bo'yicha bir necha barobar farq qilishi mumkin. Saytdagi hisob-kitobni to'ldiring yoki bizga yozing — tafsilotlarni aniqlagach, aniq summa bilan javob beramiz."
+      },
+      "calculation": {
+        "q": "Narx qanday hisoblanadi?",
+        "a": "Asosiy ko'rsatkichlar — maydon va davriylik. Ularga ishlar tarkibi qo'shiladi: oynalar, sanitariya ishlovi, hudud, ko'kalamzorlashtirish. Muntazam xizmat uchun shartnoma bo'yicha oylik narx taklif qilamiz. Ko'zdan kechirish va o'lchov uchun obyektga chiqish: [shartlarni aniqlashtirish]."
+      },
+      "regular": {
+        "q": "Muntazam tozalashni buyurtma qilish mumkinmi?",
+        "a": "Ha, bu bizning asosiy ish formatimiz. Har kuni, haftada bir necha marta, haftada yoki oyda bir marta — jadvalni obyektning ish tartibiga qarab tanlaymiz va shartnomada belgilaymiz."
+      },
+      "business": {
+        "q": "Ofis va tashkilotlar bilan ishlaysizmi?",
+        "a": "Ha, yuridik shaxslar bilan shartnoma asosida ishlaymiz. Buxgalteriya uchun hujjatlar: [aniqlashtirish: hisob-faktura, dalolatnoma, to'lov shakli]. Obyektga mas'ul menejer biriktiriladi."
+      },
+      "renovation": {
+        "q": "Ta'mirdan keyingi tozalashni buyurtma qilish mumkinmi?",
+        "a": "Ha. Barcha yuzalardagi qurilish changini, qorishma va bo'yoq qoldiqlarini tozalaymiz, oyna va eshiklarni yuvamiz, yakuniy nam tozalashni o'tkazamiz. Mayda qurilish chiqindilarini olib ketish alohida muhokama qilinadi."
+      },
+      "territory": {
+        "q": "Hududga doimiy asosda xizmat ko'rsatish mumkinmi?",
+        "a": "Ha. Atrofdagi hududni tozalash, tartibni saqlash, o'tloq va gulzorlarni parvarishlash, mavsumiy ekishlar — bularning barchasini xonalarni tozalash bilan birga bitta shartnomaga kiritish mumkin."
+      }
+    }
+  },
+  "ctaBand": {
+    "quote": {
+      "title": "Hisoblashga tayyormisiz?",
+      "text": "To'rtta maydonni to'ldiring — so'rov bir daqiqada WhatsApp yoki Telegram'ga yuboriladi."
+    },
+    "questions": {
+      "title": "Savollar qoldimi?",
+      "text": "Qo'ng'iroq qiling yoki yozing — javob beramiz va obyektingizga qaysi xizmat formati mos kelishini aytamiz."
+    }
+  },
+  "contacts": {
+    "title": "Aloqa",
+    "subtitle": "Qulay aloqa usulini tanlang. Ish soatlarida javob beramiz, saytdan kelgan so'rovlarni darhol ko'ramiz.",
+    "phone": "Telefon",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "instagram": "Instagram",
+    "address": "Manzil",
+    "hours": "Ish vaqti",
+    "addressValue": "Dushanbe, Rudakiy shoh ko‘chasi, 45",
+    "hoursValue": "Du–Sh 08:00–20:00, Ya — so‘rov bo‘yicha",
+    "showMap": "Xaritani ko'rsatish",
+    "mapPlaceholder": "[MAP EMBED] — xarita manzil ko'rsatilgandan so'ng paydo bo'ladi",
+    "mapTitle": "Xarita: bizni qanday topish mumkin"
+  },
+  "footer": {
+    "owner": "Rahbar",
+    "navTitle": "Bo'limlar",
+    "contactsTitle": "Aloqa",
+    "langTitle": "Til",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "placeholderNotice": "Kvadrat qavsdagi ma'lumotlar — haqiqiy ma'lumot taqdim etilgunga qadar vaqtinchalik matnlar."
+  },
+  "notFound": {
+    "title": "Bunday sahifa yo'q",
+    "text": "Ehtimol, havola eskirgan. Bosh sahifaga qayting — kerakli hamma narsa shu yerda: xizmatlar, hisob-kitob va aloqa.",
+    "cta": "Bosh sahifaga"
+  }
+}

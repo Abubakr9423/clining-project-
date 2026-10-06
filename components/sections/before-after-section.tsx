@@ -4,7 +4,7 @@ import { BeforeAfterGallery } from "./before-after-gallery";
 import { images } from "@/content/images";
 import { anchors } from "@/lib/anchors";
 
-const pairKeys = ["lawn", "renovation"] as const;
+const pairKeys = ["room", "lawn", "renovation"] as const;
 
 export function BeforeAfterSection() {
   const t = useTranslations("beforeAfter");

@@ -8,7 +8,7 @@ import { MotionProvider } from "@/components/motion/motion-provider";
 import { Header } from "@/components/layout/header";
 import { MobileActionBar } from "@/components/layout/mobile-action-bar";
 import { Footer } from "@/components/layout/footer";
-import { routing } from "@/i18n/routing";
+import { isRtl, routing } from "@/i18n/routing";
 import { resolveLocale } from "@/lib/locale";
 import { buildJsonLd, buildMetadata } from "@/lib/seo";
 import { faqKeys } from "@/components/sections/faq-section";
@@ -59,7 +59,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   });
 
   return (
-    <html lang={locale} className={`${golos.variable} ${inter.variable}`}>
+    <html lang={locale} dir={isRtl(locale) ? "rtl" : "ltr"} className={`${golos.variable} ${inter.variable}`}>
       <body className="min-h-dvh bg-canvas font-body text-ink antialiased pb-[calc(56px+env(safe-area-inset-bottom))] md:pb-0">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <NextIntlClientProvider>
@@ -67,7 +67,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             <TooltipProvider delayDuration={200}>
               <a
                 href="#content"
-                className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-forest focus:px-4 focus:py-2 focus:text-white"
+                className="sr-only focus:not-sr-only focus:fixed focus:start-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-forest focus:px-4 focus:py-2 focus:text-white"
               >
                 {ta("skipToContent")}
               </a>

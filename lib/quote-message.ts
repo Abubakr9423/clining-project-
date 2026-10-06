@@ -10,6 +10,8 @@ export type QuoteLabels = {
   comment: string;
   language: string;
   none: string;
+  /** Label for the calculator's approximate price line (optional for older callers). */
+  estimate?: string;
 };
 
 export type QuoteInput = {
@@ -21,6 +23,8 @@ export type QuoteInput = {
   name?: string;
   comment?: string;
   languageLabel: string;
+  /** Pre-formatted approximate price, e.g. "≈ 1 200–1 600 сом. в месяц". Omitted when unknown. */
+  estimate?: string | null;
 };
 
 /**
@@ -39,8 +43,9 @@ export function buildQuoteMessage(input: QuoteInput, l: QuoteLabels): string {
     `${l.area}: ${input.area === null ? l.none : `${Math.round(input.area)} ${l.areaUnit}`}`,
     `${l.frequency}: ${input.frequency}`,
     `${l.extras}: ${extras}`,
-    "",
   ];
+  if (input.estimate && l.estimate) lines.push(`${l.estimate}: ${input.estimate}`);
+  lines.push("");
   if (name) lines.push(`${l.name}: ${name}`);
   if (comment) lines.push(`${l.comment}: ${comment}`);
   lines.push(`${l.language}: ${input.languageLabel}`);

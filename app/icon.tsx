@@ -1,17 +1,18 @@
 import { ImageResponse } from "next/og";
+import { logoColors, logoMarkPaths } from "@/components/brand/logo";
 
 export const size = { width: 64, height: 64 };
 export const contentType = "image/png";
 
-/** Favicon: forest square with a white check — matches the header mark. Replace with the real logo later. */
+/** Favicon: the sparkle-"o" of the Safo wordmark on a forest tile. */
 export default function Icon() {
   return new ImageResponse(
     (
-      <div style={{ width: "100%", height: "100%", background: "#0B3B34", borderRadius: 14, display: "flex", alignItems: "center", justifyContent: "center" }}>
-        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M5 13l4 4L19 7" />
-        </svg>
-      </div>
+      <svg width="64" height="64" viewBox="0 0 64 64">
+        <rect width="64" height="64" rx="16" fill={logoColors.tile} />
+        <circle cx={logoMarkPaths.ring.cx} cy={logoMarkPaths.ring.cy} r={logoMarkPaths.ring.r} fill="none" stroke={logoColors.ring} strokeWidth={logoMarkPaths.ringStroke} />
+        <path d={logoMarkPaths.sparkle} fill={logoColors.sparkle} />
+      </svg>
     ),
     size,
   );
