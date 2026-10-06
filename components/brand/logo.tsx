@@ -8,7 +8,8 @@ export const logoColors = { tile: "#0E2440", ring: "#FFFFFF", ink: "#0E2440", sp
 const sparkle40 = "M34 -2l2.2 6L42 6.2l-5.8 2.2L34 14.4l-2.2-6L26 6.2l5.8-2.2Z";
 
 /**
- * App-icon version (favicon, OG): the sparkle-"o" alone on a forest tile, 64×64 grid.
+ * App-icon version: the sparkle-"o" alone on a navy tile, 64×64 grid. Used live by the OG image;
+ * app/favicon.ico, icon.png and apple-icon.png are static renders of the same geometry (keep in sync).
  * Exported as raw paths so next/og can draw it without React components from here.
  */
 export const logoMarkPaths = {
