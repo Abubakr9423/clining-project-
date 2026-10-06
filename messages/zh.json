@@ -490,7 +490,8 @@
     "contactsTitle": "联系方式",
     "langTitle": "语言",
     "rights": "保留所有权利。",
-    "placeholderNotice": "方括号中的数据是占位内容，待提供真实信息后替换。"
+    "placeholderNotice": "方括号中的数据是占位内容，待提供真实信息后替换。",
+    "madeBy": "网站由 <link>{company}</link> 开发"
   },
   "notFound": {
     "title": "页面不存在",

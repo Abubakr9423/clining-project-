@@ -75,6 +75,16 @@ export function Footer() {
             © {year} {siteConfig.name}. {t("rights")}
           </p>
           <p>{t("placeholderNotice")}</p>
+          <p>
+            {t.rich("madeBy", {
+              company: siteConfig.developer.name,
+              link: (chunks) => (
+                <a href={siteConfig.developer.url} target="_blank" rel="noopener" className="font-medium text-forest hover:underline">
+                  {chunks}
+                </a>
+              ),
+            })}
+          </p>
         </Container>
       </div>
     </footer>

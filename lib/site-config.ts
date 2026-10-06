@@ -19,6 +19,8 @@ function resolveSiteUrl(): string {
 export const siteConfig = {
   name: "Safo Cleaning",
   owner: "Musavvir Kamolov",
+  /** Credited in the footer ("Website by …"). */
+  developer: { name: "ZazaTech LLC", url: "https://zazatech.tj" },
   goalStatement: "[GOAL STATEMENT]",
   city: "Dushanbe",
   phone: "+992 022051313",

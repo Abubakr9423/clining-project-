@@ -490,7 +490,8 @@
     "contactsTitle": "Contacts",
     "langTitle": "Language",
     "rights": "All rights reserved.",
-    "placeholderNotice": "Details in square brackets are placeholders until real information is provided."
+    "placeholderNotice": "Details in square brackets are placeholders until real information is provided.",
+    "madeBy": "Website by <link>{company}</link>"
   },
   "notFound": {
     "title": "Page not found",

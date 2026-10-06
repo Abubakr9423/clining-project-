@@ -490,7 +490,8 @@
     "contactsTitle": "Aloqa",
     "langTitle": "Til",
     "rights": "Barcha huquqlar himoyalangan.",
-    "placeholderNotice": "Kvadrat qavsdagi ma'lumotlar — haqiqiy ma'lumot taqdim etilgunga qadar vaqtinchalik matnlar."
+    "placeholderNotice": "Kvadrat qavsdagi ma'lumotlar — haqiqiy ma'lumot taqdim etilgunga qadar vaqtinchalik matnlar.",
+    "madeBy": "Sayt <link>{company}</link> tomonidan ishlab chiqilgan"
   },
   "notFound": {
     "title": "Bunday sahifa yo'q",

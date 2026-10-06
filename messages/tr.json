@@ -490,7 +490,8 @@
     "contactsTitle": "İletişim",
     "langTitle": "Dil",
     "rights": "Tüm hakları saklıdır.",
-    "placeholderNotice": "Köşeli parantez içindeki bilgiler, gerçek bilgiler sağlanana kadar yer tutucudur."
+    "placeholderNotice": "Köşeli parantez içindeki bilgiler, gerçek bilgiler sağlanana kadar yer tutucudur.",
+    "madeBy": "Web sitesi: <link>{company}</link>"
   },
   "notFound": {
     "title": "Böyle bir sayfa yok",

@@ -490,7 +490,8 @@
     "contactsTitle": "Aragatnaşyk",
     "langTitle": "Dil",
     "rights": "Ähli hukuklar goralan.",
-    "placeholderNotice": "Gönüburçly ýaýlardaky maglumatlar — hakyky maglumat berilýänçä ýerine goýulýan tekstlerdir."
+    "placeholderNotice": "Gönüburçly ýaýlardaky maglumatlar — hakyky maglumat berilýänçä ýerine goýulýan tekstlerdir.",
+    "madeBy": "Saýty <link>{company}</link> işläp düzdi"
   },
   "notFound": {
     "title": "Beýle sahypa ýok",
