@@ -26,6 +26,8 @@ export const routing = defineRouting({
   locales,
   defaultLocale: "tg",
   localePrefix: { mode: "always", prefixes: localePaths },
+  // hreflang lives in <head> and the sitemap; the middleware Link header would declare a second x-default.
+  alternateLinks: false,
 });
 
 /** Short labels shown in the header switch and in the quote message. */

@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { getTranslations } from "next-intl/server";
 import { hasLocale } from "next-intl";
-import { localeLabels, routing } from "@/i18n/routing";
+import { isRtl, localeLabels, routing } from "@/i18n/routing";
 import { siteConfig } from "@/lib/site-config";
 import { logoColors, logoMarkPaths } from "@/components/brand/logo";
 
@@ -13,7 +13,8 @@ export const alt = "Cleaning and territory maintenance in Dushanbe";
 export default async function OpenGraphImage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: raw } = await params;
   const locale = hasLocale(routing.locales, raw) ? raw : routing.defaultLocale;
-  const t = await getTranslations({ locale, namespace: "meta" });
+  // The edge renderer has no Arabic-script font, so fa/ar cards fall back to English text.
+  const t = await getTranslations({ locale: isRtl(locale) ? "en" : locale, namespace: "meta" });
 
   return new ImageResponse(
     (

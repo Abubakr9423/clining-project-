@@ -53,12 +53,13 @@ export function buildJsonLd(locale: AppLocale, opts: { description: string; faq:
   const path = localePath(locale);
   const business: Record<string, unknown> = {
     "@type": "LocalBusiness",
-    "@id": `${absoluteUrl(path)}#business`,
+    "@id": `${siteConfig.url}/#business`,
     name: isPh(siteConfig.name) ? undefined : siteConfig.name,
     url: absoluteUrl(path),
     description: opts.description,
     areaServed: { "@type": "City", name: "Dushanbe" },
-    inLanguage: locale,
+    logo: absoluteUrl("/icon.png"),
+    image: absoluteUrl("/icon.png"),
     knowsAbout: opts.serviceNames,
   };
   if (!isPh(siteConfig.phone)) business.telephone = siteConfig.phone;
@@ -67,7 +68,8 @@ export function buildJsonLd(locale: AppLocale, opts: { description: string; faq:
 
   const faq = {
     "@type": "FAQPage",
-    mainEntity: opts.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+    // Answers still holding "[confirm …]" placeholders stay off the structured data.
+    mainEntity: opts.faq.filter((f) => !/\[[^\]]+\]/.test(f.a)).map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
   };
 
   return { "@context": "https://schema.org", "@graph": [business, faq] };

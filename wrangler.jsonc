@@ -18,5 +18,8 @@
   "images": {
     "binding": "IMAGES"
   },
-  "observability": { "enabled": true }
+  "observability": { "enabled": true },
+  // Serve only from safocleaning.tj — no duplicate site on *.workers.dev.
+  "workers_dev": false,
+  "preview_urls": false
 }
